@@ -28,7 +28,8 @@ export class TicketsService {
     return new Promise((resolve, reject) => {
       this.dbService.getTicketDatastore().findOne({ id }, (err, doc) => {
         if (err) reject(err);
-        if (!doc) throw new NotFoundException(`Ticket with ID ${id} not found.`);
+        if (!doc)
+          throw new NotFoundException(`Ticket with ID ${id} not found.`);
         resolve(doc);
       });
     });
@@ -36,21 +37,27 @@ export class TicketsService {
 
   async update(id: string, ticket: Ticket): Promise<Ticket> {
     return new Promise((resolve, reject) => {
-      this.dbService.getTicketDatastore().update({ id }, ticket, {}, (err, numReplaced) => {
-        if (err) reject(err);
-        if (numReplaced === 0) throw new NotFoundException(`Ticket with ID ${id} not found.`);
-        resolve(ticket);
-      });
+      this.dbService
+        .getTicketDatastore()
+        .update({ id }, ticket, {}, (err, numReplaced) => {
+          if (err) reject(err);
+          if (numReplaced === 0)
+            throw new NotFoundException(`Ticket with ID ${id} not found.`);
+          resolve(ticket);
+        });
     });
   }
 
   async remove(id: string): Promise<void> {
     return new Promise((resolve, reject) => {
-      this.dbService.getTicketDatastore().remove({ id }, {}, (err, numRemoved) => {
-        if (err) reject(err);
-        if (numRemoved === 0) throw new NotFoundException(`Ticket with ID ${id} not found.`);
-        resolve();
-      });
+      this.dbService
+        .getTicketDatastore()
+        .remove({ id }, {}, (err, numRemoved) => {
+          if (err) reject(err);
+          if (numRemoved === 0)
+            throw new NotFoundException(`Ticket with ID ${id} not found.`);
+          resolve();
+        });
     });
   }
 }

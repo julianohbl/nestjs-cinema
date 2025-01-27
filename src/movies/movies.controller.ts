@@ -1,4 +1,13 @@
-import { Controller, Get, Post, Body, Put, Param, Delete, NotFoundException } from '@nestjs/common';
+import {
+  Controller,
+  Get,
+  Post,
+  Body,
+  Put,
+  Param,
+  Delete,
+  NotFoundException,
+} from '@nestjs/common';
 import { Movie } from './movie.entity';
 import { MoviesService } from './movies.service';
 import { ApiTags, ApiResponse, ApiOperation } from '@nestjs/swagger';
@@ -33,7 +42,10 @@ export class MoviesController {
   @ApiResponse({ status: 201, description: 'Filme atualizado com sucesso.' })
   @ApiResponse({ status: 400, description: 'Requisição inválida.' })
   @ApiResponse({ status: 404, description: 'Filme não encontrado.' })
-  async update(@Param('id') id: string, @Body() movie: Partial<Movie>): Promise<Movie> {
+  async update(
+    @Param('id') id: string,
+    @Body() movie: Partial<Movie>,
+  ): Promise<Movie> {
     const updatedMovie = await this.moviesService.update(id, movie);
     if (!updatedMovie) {
       throw new NotFoundException('Movie not found or not updated');
