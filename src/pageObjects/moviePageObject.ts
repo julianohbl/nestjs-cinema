@@ -9,17 +9,24 @@ export class MoviePageObject {
   constructor(private request) {}
 
   // Método para criar um filme com dados aleatórios usando Faker
-  async criarFilme() {
-    const filme = gerarDadosFilme(); // Gera os dados do filme
-    console.log('Filme gerado:', filme); // Exibe o filme gerado no console
+  async criarFilme(dadosDoFilme?: Partial<object>) {
+    // if (!dadosDoFilme) {
+    //   dadosDoFilme = gerarDadosFilme(); // Gera os dados do filme
+    // }
+    // console.log('Filme gerado:', dadosDoFilme); // Exibe o filme gerado no console
+    if (!dadosDoFilme || Object.keys(dadosDoFilme).length === 0) {
+      dadosDoFilme = gerarDadosFilme(); // Gera os dados completos
+    } else {
+      // Garante que campos ausentes sejam preenchidos
+      dadosDoFilme = Object.assign(gerarDadosFilme(), dadosDoFilme);
+    }
 
     const response = await this.request.post('/movies', {
-      data: filme,
+      data: dadosDoFilme,
     });
 
-    console.log('Resposta da criação:', response); // Exibe a resposta no console
-
-    return response; // Retorna a resposta para o teste fazer as asserções
+    const status = response.status();
+    return { status, response, dadosDoFilme }; // Retorna o corpo da resposta como JSON
   }
 
   // Método para alterar um filme por ID
@@ -68,9 +75,9 @@ export class MoviePageObject {
     const response = await this.request.delete(`/movies/${id}`);
 
     const status = response.status();
-    const responseBody = await response.json();
-    console.log('Resposta da deleção:', responseBody);
+    // const responseBody = await response.json();
+    // console.log('Resposta da deleção:', responseBody);
     console.log('Status:', status);
-    return { status, responseBody };
+    return { status, response };
   }
 }
