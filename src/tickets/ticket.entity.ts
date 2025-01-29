@@ -23,6 +23,6 @@ export class Ticket {
   price: number;
 
   @ApiProperty({ description: 'Data de apresentação' })
-  @IsNotEmpty({ message: 'Data de apresentação é mandatória'})
+  @IsNotEmpty({ message: 'Data de apresentação é mandatória' })
   showtime: Date;
 }
