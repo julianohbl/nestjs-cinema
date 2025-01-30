@@ -163,7 +163,7 @@ test.describe('/movies', () => {
       expect(response.status).toBe(204);
     });
 
-    test.only('Deve retornar erro ao deletar um filme inexistente', async () => {
+    test('Deve retornar erro ao deletar um filme inexistente', async () => {
       const response = await moviePage.deletarFilme('filme inexistente'); // Assumindo ID 1
 
       console.log('Resposta:', response);

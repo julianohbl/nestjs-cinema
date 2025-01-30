@@ -1,6 +1,4 @@
-// moviePageObject.ts
-// import { request } from '@playwright/test'; // Caso precise do tipo request
-import { gerarDadosFilme } from 'src/fixtures/faker.Data';
+import { gerarDadosFilme } from 'src/fixtures/movie.Data';
 
 export class MoviePageObject {
   static criarFilme() {
