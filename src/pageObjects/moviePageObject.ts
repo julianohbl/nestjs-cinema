@@ -1,6 +1,4 @@
-// moviePageObject.ts
-// import { request } from '@playwright/test'; // Caso precise do tipo request
-import { gerarDadosFilme } from 'src/fixtures/faker.Data';
+import { gerarDadosFilme } from 'src/fixtures/movie.Data';
 
 export class MoviePageObject {
   static criarFilme() {
@@ -10,10 +8,6 @@ export class MoviePageObject {
 
   // Método para criar um filme com dados aleatórios usando Faker
   async criarFilme(dadosDoFilme?: Partial<object>) {
-    // if (!dadosDoFilme) {
-    //   dadosDoFilme = gerarDadosFilme(); // Gera os dados do filme
-    // }
-    // console.log('Filme gerado:', dadosDoFilme); // Exibe o filme gerado no console
     if (!dadosDoFilme || Object.keys(dadosDoFilme).length === 0) {
       dadosDoFilme = gerarDadosFilme(); // Gera os dados completos
     } else {
