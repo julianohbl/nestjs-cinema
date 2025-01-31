@@ -1,5 +1,6 @@
 // tests/pages/TicketsPage.ts
 import { APIRequestContext } from '@playwright/test';
+import { performance } from 'perf_hooks';
 import { gerarDadosIngresso } from 'src/fixtures/ticketData';
 
 export class TicketPageObject {
@@ -14,6 +15,8 @@ export class TicketPageObject {
     movieId: string,
     overrideData: Partial<ReturnType<typeof gerarDadosIngresso>> = {},
   ) {
+    const inicio = performance.now();
+
     const dadosDoIngresso = { ...gerarDadosIngresso(), ...overrideData }; // Permite sobrescrever valores específicos
     console.log('Dados gerados: ', dadosDoIngresso);
 
@@ -26,6 +29,10 @@ export class TicketPageObject {
 
     const status = response.status();
     const responseBody = await response.json();
+
+    const fim = performance.now();
+    const tempoExecucao = fim - inicio;
+    console.log(`Tempo de criação do filme: ${tempoExecucao} ms`);
 
     return { responseBody, status };
   }

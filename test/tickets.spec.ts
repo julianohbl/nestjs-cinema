@@ -44,7 +44,7 @@ test.describe('API de Tickets', () => {
     expect(ticketCriado.responseBody.price).toBeLessThanOrEqual(60);
   });
 
-  test.only('Deve retornar erro ao criar um novo ticket com movieId inválido', async () => {
+  test('Deve retornar erro ao criar um novo ticket com movieId inválido', async () => {
     // Criar o ticket
     const ticketCriado = await ticketsPage.criarTicket('movieIdInvalido');
     console.log('Status:', ticketCriado.status);

@@ -3,6 +3,9 @@ import { MoviePageObject } from 'src/pageObjects/moviePageObject';
 
 let apiContext: APIRequestContext;
 let moviePage: MoviePageObject;
+
+let movieId: string;
+
 test.describe('/movies', () => {
   test.beforeAll(async ({ baseURL }) => {
     apiContext = await request.newContext({
@@ -15,9 +18,19 @@ test.describe('/movies', () => {
     await apiContext.dispose(); // Descarte o contexto de requisição
   });
 
+  test.afterEach(async () => {
+    if (movieId) {
+      await moviePage.deletarFilme(movieId);
+    }
+  });
+
   test.describe('POST /movies', () => {
     test('Deve criar um novo filme com sucesso com dados válidos', async () => {
       const filmeCriado = await moviePage.criarFilme(null);
+      movieId = filmeCriado.responseBody._id;
+
+      console.log('Corpo da resposta', filmeCriado);
+      console.log('ID do filme cadastrado:', movieId);
 
       expect(filmeCriado.status).toBe(201);
       expect(filmeCriado.responseBody).toHaveProperty('_id');
@@ -155,7 +168,11 @@ test.describe('/movies', () => {
 
   test.describe('DELETE /movies', () => {
     test('Deve deletar um filme existente', async () => {
-      const response = await moviePage.deletarFilme('5qH8LBqcW1HXRcHg'); // Assumindo ID 1
+      const filmeCriado = await moviePage.criarFilme(null);
+
+      const movieId = filmeCriado.responseBody._id;
+
+      const response = await moviePage.deletarFilme(movieId);
 
       console.log('Resposta:', response);
       expect(response.status).toBe(204);
