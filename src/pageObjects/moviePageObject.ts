@@ -19,8 +19,11 @@ export class MoviePageObject {
       data: dadosDoFilme,
     });
 
+    const responseBody = await response.json();
+    console.log('Filme criado:', responseBody);
+
     const status = response.status();
-    return { status, response, dadosDoFilme }; // Retorna o corpo da resposta como JSON
+    return { status, response, dadosDoFilme, responseBody }; // Retorna o corpo da resposta como JSON
   }
 
   // Método para alterar um filme por ID

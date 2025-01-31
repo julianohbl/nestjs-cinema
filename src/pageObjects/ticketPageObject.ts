@@ -10,8 +10,11 @@ export class TicketPageObject {
     this.request = request;
   }
 
-  async criarTicket(movieId: string) {
-    const dadosDoIngresso = gerarDadosIngresso();
+  async criarTicket(
+    movieId: string,
+    overrideData: Partial<ReturnType<typeof gerarDadosIngresso>> = {},
+  ) {
+    const dadosDoIngresso = { ...gerarDadosIngresso(), ...overrideData }; // Permite sobrescrever valores específicos
     console.log('Dados gerados: ', dadosDoIngresso);
 
     const response = await this.request.post(this.endpoint, {

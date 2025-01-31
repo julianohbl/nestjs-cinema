@@ -19,10 +19,8 @@ test.describe('/movies', () => {
     test('Deve criar um novo filme com sucesso com dados válidos', async () => {
       const filmeCriado = await moviePage.criarFilme(null);
 
-      console.log('Corpo da resposta', filmeCriado);
-      console.log('Status da resposta', filmeCriado.status);
       expect(filmeCriado.status).toBe(201);
-      expect(filmeCriado.response).toHaveProperty('_id');
+      expect(filmeCriado.responseBody).toHaveProperty('_id');
     });
 
     test('Deve retornar erro ao criar um filme com título duplicado', async () => {

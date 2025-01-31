@@ -66,7 +66,14 @@ export class MoviesController {
   @ApiOperation({ summary: 'Criar um novo filme' })
   @ApiResponse({ status: 201, description: 'Filme criado com sucesso.' })
   @ApiResponse({ status: 400, description: 'Requisição inválida.' })
-  create(@Body() movie: Movie): void {
-    this.moviesService.create(movie);
+  // create(@Body() movie: Movie): void {
+  //   this.moviesService.create(movie);
+  // }
+  async create(@Body() movie: Movie): Promise<Movie> {
+    const createdMovie = await this.moviesService.create(movie);
+    if (!createdMovie) {
+      throw new NotFoundException('Movie not created');
+    }
+    return createdMovie;
   }
 }
