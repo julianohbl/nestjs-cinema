@@ -1,5 +1,5 @@
 import { test, expect, APIRequestContext, request } from '@playwright/test';
-import { MoviePageObject } from 'src/pageObjects/moviePageObject';
+import { MoviePageObject } from 'test/pageObjects/moviePageObject';
 
 let apiContext: APIRequestContext;
 let moviePage: MoviePageObject;
@@ -25,12 +25,11 @@ test.describe('/movies', () => {
   });
 
   test.describe('POST /movies', () => {
-    test('Deve criar um novo filme com sucesso com dados válidos', async () => {
+    test.only('Deve criar um novo filme com sucesso com dados válidos', async () => {
       const filmeCriado = await moviePage.criarFilme(null);
-      movieId = filmeCriado.responseBody._id;
-
-      console.log('Corpo da resposta', filmeCriado);
-      console.log('ID do filme cadastrado:', movieId);
+      if (filmeCriado.responseBody._id) {
+        movieId = filmeCriado.responseBody._id;
+      }
 
       expect(filmeCriado.status).toBe(201);
       expect(filmeCriado.responseBody).toHaveProperty('_id');
@@ -38,59 +37,67 @@ test.describe('/movies', () => {
 
     test('Deve retornar erro ao criar um filme com título duplicado', async () => {
       const filmeCriado = await moviePage.criarFilme(null);
+      if (filmeCriado.responseBody._id) {
+        movieId = filmeCriado.responseBody._id;
+      }
 
-      console.log('Corpo da resposta', filmeCriado);
-      console.log('Status da resposta', filmeCriado.status);
       expect(filmeCriado.status).toBe(201);
+
       const cadastroRepetido = await moviePage.criarFilme(
         filmeCriado.dadosDoFilme,
       );
 
-      console.log('Corpo da resposta', cadastroRepetido);
-      console.log('Status da resposta', cadastroRepetido.status);
       expect(cadastroRepetido.status).toBe(400);
     });
 
     test('Deve retornar erro ao criar um filme com o título vazio', async () => {
       const filmeCriado = await moviePage.criarFilme({ title: '' });
+      if (filmeCriado.responseBody._id) {
+        movieId = filmeCriado.responseBody._id;
+      }
 
-      console.log('Corpo da resposta', filmeCriado);
-      console.log('Status da resposta', filmeCriado.status);
       expect(filmeCriado.status).toBe(400);
     });
 
     test('Deve retornar erro ao criar um filme com a data de lançamento vazia', async () => {
       const filmeCriado = await moviePage.criarFilme({ launchdate: '' });
+      if (filmeCriado.responseBody._id) {
+        movieId = filmeCriado.responseBody._id;
+      }
 
-      console.log('Corpo da resposta', filmeCriado);
-      console.log('Status da resposta', filmeCriado.status);
       expect(filmeCriado.status).toBe(400);
     });
 
     test('Deve retornar erro ao criar um filme com a descrição vazia', async () => {
       const filmeCriado = await moviePage.criarFilme({ description: '' });
+      if (filmeCriado.responseBody._id) {
+        movieId = filmeCriado.responseBody._id;
+      }
 
-      console.log('Corpo da resposta', filmeCriado);
-      console.log('Status da resposta', filmeCriado.status);
       expect(filmeCriado.status).toBe(400);
     });
 
     test('Deve retornar erro ao criar um filme com a data de exibição vazia', async () => {
       const filmeCriado = await moviePage.criarFilme({ showtimes: '' });
+      if (filmeCriado.responseBody._id) {
+        movieId = filmeCriado.responseBody._id;
+      }
 
-      console.log('Corpo da resposta', filmeCriado);
-      console.log('Status da resposta', filmeCriado.status);
       expect(filmeCriado.status).toBe(400);
     });
   });
 
   test.describe('PUT /movies', () => {
     test('Deve atualizar um filme existente com dados válidos', async () => {
-      const response = await moviePage.alterarFilme('rYC0RAs9yIofwdgh', {
+      const filmeCriado = await moviePage.criarFilme(null);
+      if (filmeCriado.responseBody._id) {
+        movieId = filmeCriado.responseBody._id;
+      }
+
+      const response = await moviePage.alterarFilme(movieId, {
         title: 'Alteração no título', // Novo título
       });
 
-      console.log('Resposta', response);
       expect(response.status).toBe(200);
       expect(response.responseBody).toHaveProperty(
         'title',
@@ -99,61 +106,92 @@ test.describe('/movies', () => {
     });
 
     test('Deve retornar erro ao atualizar um filme com o título vazio', async () => {
-      const response = await moviePage.alterarFilme('rYC0RAs9yIofwdgh', {
+      const filmeCriado = await moviePage.criarFilme(null);
+      if (filmeCriado.responseBody._id) {
+        movieId = filmeCriado.responseBody._id;
+      }
+
+      const response = await moviePage.alterarFilme(movieId, {
         title: '', // Novo título
       });
 
-      console.log('Resposta', response);
       expect(response.status).toBe(400);
     });
 
     test('Deve retornar erro ao atualizar um filme com a data de lançamento vazia', async () => {
-      const response = await moviePage.alterarFilme('rYC0RAs9yIofwdgh', {
+      const filmeCriado = await moviePage.criarFilme(null);
+      if (filmeCriado.responseBody._id) {
+        movieId = filmeCriado.responseBody._id;
+      }
+
+      const response = await moviePage.alterarFilme(movieId, {
         launchdate: '', // Nova data de lançamento
       });
 
-      console.log('Resposta', response);
       expect(response.status).toBe(400);
     });
 
     test('Deve retornar erro ao atualizar um filme com a descrição vazia', async () => {
-      const response = await moviePage.alterarFilme('rYC0RAs9yIofwdgh', {
+      const filmeCriado = await moviePage.criarFilme(null);
+      if (filmeCriado.responseBody._id) {
+        movieId = filmeCriado.responseBody._id;
+      }
+
+      const response = await moviePage.alterarFilme(movieId, {
         description: '', // Nova descrição
       });
 
-      console.log('Resposta', response);
       expect(response.status).toBe(400);
     });
 
     test('Deve retornar erro ao atualizar um filme com a data de exibição vazia', async () => {
-      const response = await moviePage.alterarFilme('rYC0RAs9yIofwdgh', {
+      const filmeCriado = await moviePage.criarFilme(null);
+      if (filmeCriado.responseBody._id) {
+        movieId = filmeCriado.responseBody._id;
+      }
+
+      const response = await moviePage.alterarFilme(movieId, {
         showtimes: '', // Nova data de exibição
       });
 
-      console.log('Resposta', response);
       expect(response.status).toBe(400);
     });
   });
 
   test.describe('GET /movies', () => {
     test('Deve listar todos os filmes', async () => {
-      const response = await moviePage.listarFilmes();
+      const listaDeFilmes = await moviePage.listarFilmes();
 
-      console.log('Resposta:', response.responseBody);
-
-      expect(response.status).toBe(200);
-      expect(response.responseBody).toBeInstanceOf(Array);
+      expect(listaDeFilmes.status).toBe(200);
+      expect(listaDeFilmes.responseBody).toBeInstanceOf(Array);
     });
 
     test('Deve obter detalhes de um filme existente', async () => {
-      const response = await moviePage.obterFilme('rYC0RAs9yIofwdgh');
+      const filmeCriado = await moviePage.criarFilme(null);
+      if (filmeCriado.responseBody._id) {
+        movieId = filmeCriado.responseBody._id;
+      }
 
-      expect(response.status).toBe(200);
-      expect(response.responseBody).toHaveProperty('title');
-      expect(response.responseBody).toHaveProperty('description');
-      expect(response.responseBody).toHaveProperty('launchdate');
-      expect(response.responseBody).toHaveProperty('showtimes');
-      expect(response.responseBody).toHaveProperty('_id', 'rYC0RAs9yIofwdgh');
+      const filme = await moviePage.obterFilme(movieId);
+
+      expect(filme.status).toBe(200);
+      expect(filme.responseBody).toHaveProperty(
+        'title',
+        filmeCriado.responseBody.title,
+      );
+      expect(filme.responseBody).toHaveProperty(
+        'description',
+        filmeCriado.responseBody.description,
+      );
+      expect(filme.responseBody).toHaveProperty(
+        'launchdate',
+        filmeCriado.responseBody.launchdate,
+      );
+      expect(filme.responseBody).toHaveProperty(
+        'showtimes',
+        filmeCriado.responseBody.showtimes,
+      );
+      expect(filme.responseBody).toHaveProperty('_id', movieId);
     });
 
     test('Deve retornar erro ao obter detalhes de um filme inexistente', async () => {
@@ -169,19 +207,18 @@ test.describe('/movies', () => {
   test.describe('DELETE /movies', () => {
     test('Deve deletar um filme existente', async () => {
       const filmeCriado = await moviePage.criarFilme(null);
-
-      const movieId = filmeCriado.responseBody._id;
+      if (filmeCriado.responseBody._id) {
+        movieId = filmeCriado.responseBody._id;
+      }
 
       const response = await moviePage.deletarFilme(movieId);
 
-      console.log('Resposta:', response);
       expect(response.status).toBe(204);
     });
 
     test('Deve retornar erro ao deletar um filme inexistente', async () => {
-      const response = await moviePage.deletarFilme('filme inexistente'); // Assumindo ID 1
+      const response = await moviePage.deletarFilme('filme inexistente');
 
-      console.log('Resposta:', response);
       expect(response.status).toBe(404);
     });
   });

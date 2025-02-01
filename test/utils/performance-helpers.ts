@@ -46,8 +46,8 @@ export async function executarTesteDeCarga(
 
   const fim = performance.now();
   const tempoExecucao = fim - inicio;
-  console.log(`Tempo de criação do filme: ${tempoExecucao} ms`);
-  console.log(`Lista de IDs criados: ${listId}`);
+  // console.log(`Tempo de criação do filme: ${tempoExecucao} ms`);
+  // console.log(`Lista de IDs criados: ${listId}`);
 
   return { tempoExecucao, sucessos, listId };
 }
