@@ -63,7 +63,7 @@ export class MoviePageObject {
   async listarFilmes() {
     const inicio = performance.now();
 
-    const response = await this.request.get('/movies');
+    const response = await this.request.get(`/movies`);
 
     const status = response.status();
     const responseBody = await response.json();
@@ -73,6 +73,25 @@ export class MoviePageObject {
 
     return { status, responseBody, tempoExecucao }; // Retorna o corpo da resposta como JSON
   }
+
+  // listarFilmesComPaginacao = async (pagina) => {
+  //   const url = `http://localhost:3000/movies?page=${pagina}`;
+
+  //   try {
+  //     const resposta = await fetch(url); // Faz a requisição GET com o fetch
+  //     if (!resposta.ok) {
+  //       throw new Error('Erro na requisição: ' + resposta.statusText);
+  //     }
+
+  //     const dados = await resposta.json(); // Converte a resposta para JSON
+  //     console.log(dados); // Aqui você pode usar os dados recebidos conforme sua necessidade
+
+  //     // Aqui você pode retornar ou fazer o que quiser com os dados
+  //     return dados;
+  //   } catch (erro) {
+  //     console.error('Erro ao buscar filmes:', erro);
+  //   }
+  // };
 
   // Método para obter um filme por ID
   async obterFilme(id) {

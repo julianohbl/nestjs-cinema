@@ -13,17 +13,18 @@ export class TicketPageObject {
 
   async criarTicket(
     movieId: string,
+    showtime: Date,
     overrideData: Partial<ReturnType<typeof gerarDadosIngresso>> = {},
   ) {
     const inicio = performance.now();
 
     const dadosDoIngresso = { ...gerarDadosIngresso(), ...overrideData }; // Permite sobrescrever valores específicos
-    console.log('Dados gerados: ', dadosDoIngresso);
 
     const response = await this.request.post(this.endpoint, {
       data: {
         ...dadosDoIngresso,
         movieId,
+        showtime,
       },
     });
 
@@ -32,8 +33,20 @@ export class TicketPageObject {
 
     const fim = performance.now();
     const tempoExecucao = fim - inicio;
-    console.log(`Tempo de criação do filme: ${tempoExecucao} ms`);
 
-    return { responseBody, status };
+    return { responseBody, status, tempoExecucao };
+  }
+
+  async deletarTicket(id) {
+    const inicio = performance.now();
+
+    const response = await this.request.delete(`${this.endpoint}/${id}`);
+    console.log('Deletar ticket:', response);
+    const status = response.status();
+
+    const fim = performance.now();
+    const tempoExecucao = fim - inicio;
+
+    return { status, response, tempoExecucao };
   }
 }

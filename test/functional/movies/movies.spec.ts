@@ -25,7 +25,7 @@ test.describe('/movies', () => {
   });
 
   test.describe('POST /movies', () => {
-    test.only('Deve criar um novo filme com sucesso com dados válidos', async () => {
+    test('Deve criar um novo filme com sucesso com dados válidos', async () => {
       const filmeCriado = await moviePage.criarFilme(null);
       if (filmeCriado.responseBody._id) {
         movieId = filmeCriado.responseBody._id;
