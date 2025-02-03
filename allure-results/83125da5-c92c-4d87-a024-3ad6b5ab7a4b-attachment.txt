@@ -1,0 +1,1 @@
+Tempo total para 30 solicitações: 308.8561999999997 ms

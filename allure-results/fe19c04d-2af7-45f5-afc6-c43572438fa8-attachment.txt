@@ -1,0 +1,23 @@
+Filme criado: {
+  status: 400,
+  response: APIResponse: 400 Bad Request
+    X-Powered-By: Express
+    Content-Type: application/json; charset=utf-8
+    Content-Length: 89
+    ETag: W/"59-TtoQmP6qdgbfc/+oXuJEU0Lq4vs"
+    Date: Sun, 02 Feb 2025 21:21:03 GMT
+    Connection: keep-alive
+    Keep-Alive: timeout=5,
+  dadosDoFilme: {
+    title: 'sui studio aedificium',
+    description: 'Veritatis capto demum aegre arcus thermae tepidus despecto tripudio stabilis.',
+    launchdate: '',
+    showtimes: [ 2025-05-29T11:25:45.735Z, 2025-08-08T23:31:35.760Z ]
+  },
+  responseBody: {
+    message: [ 'Data de lançamento é mandatória' ],
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  tempoExecucao: 62.920900000000074
+}

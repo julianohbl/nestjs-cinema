@@ -1,0 +1,23 @@
+Resposta: {
+  status: 400,
+  response: APIResponse: 400 Bad Request
+    X-Powered-By: Express
+    Content-Type: application/json; charset=utf-8
+    Content-Length: 84
+    ETag: W/"54-lC+ZpwJNtGIKBVtc4truuR4KHnU"
+    Date: Sun, 02 Feb 2025 21:32:10 GMT
+    Connection: keep-alive
+    Keep-Alive: timeout=5,
+  dadosDoFilme: {
+    title: 'aeternus atqui utor',
+    description: 'Terminatio vinculum mollitia coruscus curvo quia omnis auxilium.',
+    launchdate: 2024-11-08T21:51:18.459Z,
+    showtimes: ''
+  },
+  responseBody: {
+    message: [ 'showtimes should not be empty' ],
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  tempoExecucao: 142.36770000000024
+}

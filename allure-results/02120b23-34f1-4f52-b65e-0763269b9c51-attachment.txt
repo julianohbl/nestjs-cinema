@@ -1,0 +1,10 @@
+Resposta: {
+  status: 200,
+  response: APIResponse: 200 OK
+    X-Powered-By: Express
+    Date: Sun, 02 Feb 2025 22:32:07 GMT
+    Connection: keep-alive
+    Keep-Alive: timeout=5
+    Content-Length: 0,
+  tempoExecucao: 17.20490000000018
+}

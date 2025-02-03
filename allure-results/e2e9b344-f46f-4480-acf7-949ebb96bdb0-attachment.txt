@@ -1,0 +1,32 @@
+🚀 Iniciando teste de exclusão de 30 filmes...
+Requisição de exclusão do filme com ID C5pszM7EXgeCSVCn concluída em 611.90 ms
+Requisição de exclusão do filme com ID C5pszM7EXgeCSVCn concluída em 608.45 ms
+Requisição de exclusão do filme com ID C5pszM7EXgeCSVCn concluída em 605.66 ms
+Requisição de exclusão do filme com ID C5pszM7EXgeCSVCn concluída em 599.74 ms
+Requisição de exclusão do filme com ID C5pszM7EXgeCSVCn concluída em 596.99 ms
+Requisição de exclusão do filme com ID C5pszM7EXgeCSVCn concluída em 591.16 ms
+Requisição de exclusão do filme com ID C5pszM7EXgeCSVCn concluída em 581.96 ms
+Requisição de exclusão do filme com ID C5pszM7EXgeCSVCn concluída em 572.63 ms
+Requisição de exclusão do filme com ID C5pszM7EXgeCSVCn concluída em 572.81 ms
+Requisição de exclusão do filme com ID C5pszM7EXgeCSVCn concluída em 572.57 ms
+Requisição de exclusão do filme com ID C5pszM7EXgeCSVCn concluída em 564.66 ms
+Requisição de exclusão do filme com ID C5pszM7EXgeCSVCn concluída em 559.70 ms
+Requisição de exclusão do filme com ID C5pszM7EXgeCSVCn concluída em 550.88 ms
+Requisição de exclusão do filme com ID C5pszM7EXgeCSVCn concluída em 546.83 ms
+Requisição de exclusão do filme com ID C5pszM7EXgeCSVCn concluída em 541.16 ms
+Requisição de exclusão do filme com ID C5pszM7EXgeCSVCn concluída em 530.53 ms
+Requisição de exclusão do filme com ID C5pszM7EXgeCSVCn concluída em 504.03 ms
+Requisição de exclusão do filme com ID C5pszM7EXgeCSVCn concluída em 499.51 ms
+Requisição de exclusão do filme com ID C5pszM7EXgeCSVCn concluída em 479.64 ms
+Requisição de exclusão do filme com ID C5pszM7EXgeCSVCn concluída em 450.70 ms
+Requisição de exclusão do filme com ID C5pszM7EXgeCSVCn concluída em 443.04 ms
+Requisição de exclusão do filme com ID C5pszM7EXgeCSVCn concluída em 437.13 ms
+Requisição de exclusão do filme com ID C5pszM7EXgeCSVCn concluída em 429.49 ms
+Requisição de exclusão do filme com ID C5pszM7EXgeCSVCn concluída em 422.69 ms
+Requisição de exclusão do filme com ID C5pszM7EXgeCSVCn concluída em 420.44 ms
+Requisição de exclusão do filme com ID C5pszM7EXgeCSVCn concluída em 411.72 ms
+Requisição de exclusão do filme com ID C5pszM7EXgeCSVCn concluída em 406.33 ms
+Requisição de exclusão do filme com ID C5pszM7EXgeCSVCn concluída em 393.35 ms
+Requisição de exclusão do filme com ID C5pszM7EXgeCSVCn concluída em 374.46 ms
+Requisição de exclusão do filme com ID C5pszM7EXgeCSVCn concluída em 371.95 ms
+⏱ Tempo total para 30 solicitações de alteração: 667.32 ms

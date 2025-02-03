@@ -1,0 +1,32 @@
+🚀 Iniciando teste de exclusão de 30 filmes...
+Requisição de exclusão do filme com ID tJYYoaXamrjOUcEe concluída em 174.23 ms
+Requisição de exclusão do filme com ID tJYYoaXamrjOUcEe concluída em 171.64 ms
+Requisição de exclusão do filme com ID tJYYoaXamrjOUcEe concluída em 169.73 ms
+Requisição de exclusão do filme com ID tJYYoaXamrjOUcEe concluída em 167.96 ms
+Requisição de exclusão do filme com ID tJYYoaXamrjOUcEe concluída em 164.96 ms
+Requisição de exclusão do filme com ID tJYYoaXamrjOUcEe concluída em 163.06 ms
+Requisição de exclusão do filme com ID tJYYoaXamrjOUcEe concluída em 157.88 ms
+Requisição de exclusão do filme com ID tJYYoaXamrjOUcEe concluída em 154.48 ms
+Requisição de exclusão do filme com ID tJYYoaXamrjOUcEe concluída em 149.88 ms
+Requisição de exclusão do filme com ID tJYYoaXamrjOUcEe concluída em 147.61 ms
+Requisição de exclusão do filme com ID tJYYoaXamrjOUcEe concluída em 142.59 ms
+Requisição de exclusão do filme com ID tJYYoaXamrjOUcEe concluída em 140.59 ms
+Requisição de exclusão do filme com ID tJYYoaXamrjOUcEe concluída em 138.71 ms
+Requisição de exclusão do filme com ID tJYYoaXamrjOUcEe concluída em 136.84 ms
+Requisição de exclusão do filme com ID tJYYoaXamrjOUcEe concluída em 135.00 ms
+Requisição de exclusão do filme com ID tJYYoaXamrjOUcEe concluída em 132.98 ms
+Requisição de exclusão do filme com ID tJYYoaXamrjOUcEe concluída em 131.23 ms
+Requisição de exclusão do filme com ID tJYYoaXamrjOUcEe concluída em 130.36 ms
+Requisição de exclusão do filme com ID tJYYoaXamrjOUcEe concluída em 125.81 ms
+Requisição de exclusão do filme com ID tJYYoaXamrjOUcEe concluída em 123.99 ms
+Requisição de exclusão do filme com ID tJYYoaXamrjOUcEe concluída em 122.22 ms
+Requisição de exclusão do filme com ID tJYYoaXamrjOUcEe concluída em 117.51 ms
+Requisição de exclusão do filme com ID tJYYoaXamrjOUcEe concluída em 115.54 ms
+Requisição de exclusão do filme com ID tJYYoaXamrjOUcEe concluída em 113.74 ms
+Requisição de exclusão do filme com ID tJYYoaXamrjOUcEe concluída em 111.88 ms
+Requisição de exclusão do filme com ID tJYYoaXamrjOUcEe concluída em 110.08 ms
+Requisição de exclusão do filme com ID tJYYoaXamrjOUcEe concluída em 108.27 ms
+Requisição de exclusão do filme com ID tJYYoaXamrjOUcEe concluída em 105.10 ms
+Requisição de exclusão do filme com ID tJYYoaXamrjOUcEe concluída em 107.50 ms
+Requisição de exclusão do filme com ID tJYYoaXamrjOUcEe concluída em 105.60 ms
+⏱ Tempo total para 30 solicitações de alteração: 192.64 ms
