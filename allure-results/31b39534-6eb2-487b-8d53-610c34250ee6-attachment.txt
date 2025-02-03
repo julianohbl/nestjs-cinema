@@ -1,0 +1,50 @@
+filmeCriado {
+  status: 201,
+  response: APIResponse: 201 Created
+    X-Powered-By: Express
+    Content-Type: application/json; charset=utf-8
+    Content-Length: 228
+    ETag: W/"e4-SVqwIpWmhjDsdunNkGclcT+X4n8"
+    Date: Sun, 02 Feb 2025 20:28:10 GMT
+    Connection: keep-alive
+    Keep-Alive: timeout=5,
+  dadosDoFilme: {
+    title: 'dolorum acidus cedo',
+    description: 'Adsuesco conatus suscipit pectus super trucido.',
+    launchdate: 2024-08-25T11:48:55.434Z,
+    showtimes: [ 2025-03-29T06:31:20.353Z, 2025-03-28T21:39:49.668Z ]
+  },
+  responseBody: {
+    title: 'dolorum acidus cedo',
+    description: 'Adsuesco conatus suscipit pectus super trucido.',
+    launchdate: '2024-08-25T11:48:55.434Z',
+    showtimes: [ '2025-03-29T06:31:20.353Z', '2025-03-28T21:39:49.668Z' ],
+    _id: 'cnvmE2FyEFHWla8X'
+  },
+  tempoExecucao: 70.67679999999973
+}
+cadastroRepetido {
+  status: 201,
+  response: APIResponse: 201 Created
+    X-Powered-By: Express
+    Content-Type: application/json; charset=utf-8
+    Content-Length: 228
+    ETag: W/"e4-uNykQs91dPjgYVd8g1YX4UXbPdw"
+    Date: Sun, 02 Feb 2025 20:28:10 GMT
+    Connection: keep-alive
+    Keep-Alive: timeout=5,
+  dadosDoFilme: {
+    title: 'dolorum acidus cedo',
+    description: 'Adsuesco conatus suscipit pectus super trucido.',
+    launchdate: 2024-08-25T11:48:55.434Z,
+    showtimes: [ 2025-03-29T06:31:20.353Z, 2025-03-28T21:39:49.668Z ]
+  },
+  responseBody: {
+    title: 'dolorum acidus cedo',
+    description: 'Adsuesco conatus suscipit pectus super trucido.',
+    launchdate: '2024-08-25T11:48:55.434Z',
+    showtimes: [ '2025-03-29T06:31:20.353Z', '2025-03-28T21:39:49.668Z' ],
+    _id: 'o3Rw6ZeO3xZnAxgJ'
+  },
+  tempoExecucao: 35.31470000000036
+}

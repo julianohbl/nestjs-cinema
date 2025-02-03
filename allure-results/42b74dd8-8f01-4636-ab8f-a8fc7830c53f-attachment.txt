@@ -1,0 +1,23 @@
+Resposta: {
+  status: 400,
+  response: APIResponse: 400 Bad Request
+    X-Powered-By: Express
+    Content-Type: application/json; charset=utf-8
+    Content-Length: 90
+    ETag: W/"5a-ZeEjLhpgu2KdqudSKa6XoUGZMNc"
+    Date: Sun, 02 Feb 2025 21:27:08 GMT
+    Connection: keep-alive
+    Keep-Alive: timeout=5,
+  dadosDoFilme: {
+    title: 'calamitas anser accendo',
+    description: '',
+    launchdate: 2024-03-20T12:27:54.699Z,
+    showtimes: [ 2025-05-05T05:22:38.067Z, 2025-06-02T13:59:20.580Z ]
+  },
+  responseBody: {
+    message: [ 'Descrição do filme é mandatória' ],
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  tempoExecucao: 63.966699999999946
+}

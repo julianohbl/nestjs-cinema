@@ -1,0 +1,1 @@
+Tempo total para 100 solicitações: 2345.8432000000003 ms

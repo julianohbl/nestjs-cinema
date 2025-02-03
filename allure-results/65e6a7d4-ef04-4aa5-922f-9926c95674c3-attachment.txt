@@ -1,0 +1,32 @@
+🚀 Iniciando teste de exclusão de 30 filmes...
+Tempo de execução: 194.21 ms
+Tempo de execução: 189.79 ms
+Tempo de execução: 187.86 ms
+Tempo de execução: 186.14 ms
+Tempo de execução: 184.38 ms
+Tempo de execução: 181.99 ms
+Tempo de execução: 180.14 ms
+Tempo de execução: 171.52 ms
+Tempo de execução: 164.10 ms
+Tempo de execução: 143.18 ms
+Tempo de execução: 140.26 ms
+Tempo de execução: 138.41 ms
+Tempo de execução: 136.52 ms
+Tempo de execução: 134.45 ms
+Tempo de execução: 132.64 ms
+Tempo de execução: 129.49 ms
+Tempo de execução: 126.57 ms
+Tempo de execução: 123.96 ms
+Tempo de execução: 121.73 ms
+Tempo de execução: 119.91 ms
+Tempo de execução: 115.19 ms
+Tempo de execução: 114.00 ms
+Tempo de execução: 113.55 ms
+Tempo de execução: 112.19 ms
+Tempo de execução: 110.09 ms
+Tempo de execução: 108.92 ms
+Tempo de execução: 105.91 ms
+Tempo de execução: 104.50 ms
+Tempo de execução: 107.32 ms
+Tempo de execução: 105.39 ms
+⏱ Tempo total para 30 solicitações de alteração: 216.55 ms

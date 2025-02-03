@@ -83,6 +83,8 @@ test.describe('/movies', () => {
         movieId = filmeCriado.responseBody._id;
       }
 
+      console.log('Resposta:', filmeCriado);
+
       expect(filmeCriado.status).toBe(400);
     });
   });
@@ -159,7 +161,7 @@ test.describe('/movies', () => {
   });
 
   test.describe('GET /movies', () => {
-    test('Deve listar todos os filmes', async () => {
+    test('Deve listar todos os filmes cadastrados', async () => {
       const listaDeFilmes = await moviePage.listarFilmes();
 
       expect(listaDeFilmes.status).toBe(200);
@@ -195,9 +197,7 @@ test.describe('/movies', () => {
     });
 
     test('Deve retornar erro ao obter detalhes de um filme inexistente', async () => {
-      const response = await moviePage.obterFilme('filme inexistente');
-
-      console.log('Resposta:', response);
+      const response = await moviePage.obterFilme('filme-inexistente');
 
       expect(response.status).toBe(404);
       expect(response.responseBody).toHaveProperty('error', 'Not Found');
@@ -211,13 +211,19 @@ test.describe('/movies', () => {
         movieId = filmeCriado.responseBody._id;
       }
 
+      console.log('ID do filme:', movieId);
+
       const response = await moviePage.deletarFilme(movieId);
+
+      console.log('Resposta:', response);
 
       expect(response.status).toBe(204);
     });
 
     test('Deve retornar erro ao deletar um filme inexistente', async () => {
       const response = await moviePage.deletarFilme('filme inexistente');
+
+      console.log('Resposta:', response);
 
       expect(response.status).toBe(404);
     });

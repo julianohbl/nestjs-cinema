@@ -1,7 +1,6 @@
 import { test, expect, request, APIRequestContext } from '@playwright/test';
 import { executarTesteDeCarga } from '../../utils/performance-helpers';
 import { MoviePageObject } from 'test/pageObjects/moviePageObject';
-import { performance } from 'perf_hooks';
 
 let apiContext: APIRequestContext;
 let moviePage: MoviePageObject;
@@ -30,20 +29,31 @@ test.describe('/movies', () => {
 
   test('A API deve ser capaz de processar 100 solicitações de criação de filmes por segundo', async () => {
     quantidade = 100; // Número de solicitações
-    const { tempoExecucao, sucessos, listId } = await executarTesteDeCarga(
-      () => moviePage.criarFilme(null),
+
+    const { tempoExecucaoTotal, sucessos, listId } = await executarTesteDeCarga(
+      async () => {
+        const response = await moviePage.criarFilme(null);
+
+        console.log(
+          `Tempo de execução: ${response.tempoExecucao.toFixed(2)} ms`,
+        );
+        return response;
+      },
       quantidade,
     );
 
     listaDeIds = listId;
 
+    // Exibir tempo total
     console.log(
-      `Tempo total para ${quantidade} solicitações: ${tempoExecucao} ms`,
+      `⏱ Tempo total para ${quantidade} solicitações: ${tempoExecucaoTotal.toFixed(
+        2,
+      )} ms`,
     );
 
     // Validações
     expect(sucessos).toBe(quantidade); // Todas as solicitações devem ser bem-sucedidas
-    expect(tempoExecucao).toBeLessThan(1000); // O tempo total deve ser menor que 1 segundo (1000 ms)
+    expect(tempoExecucaoTotal).toBeLessThan(1000); // O tempo total deve ser menor que 1 segundo (1000 ms)
   });
 
   test('A API deve ser capaz de processar 50 solicitações de atualização de filmes por segundo', async () => {
@@ -55,23 +65,34 @@ test.describe('/movies', () => {
 
     listaDeIds = listId;
 
-    const inicio = performance.now();
-    for (let i = 0; i < quantidade; i++) {
-      await moviePage.alterarFilme(listId[i], {
-        title: `Título alterado ${i}`,
-      });
-    }
-    const fim = performance.now();
-    const tempoExecucao = fim - inicio;
+    console.log(`🚀 Iniciando teste de atualização de ${quantidade} filmes...`);
+    const { tempoExecucaoTotal, sucessos } = await executarTesteDeCarga(
+      async () => {
+        const filmeId = listId[Math.floor(Math.random() * listId.length)]; // Seleciona aleatoriamente um ID
+        const response = await moviePage.alterarFilme(filmeId, {
+          title: `Título alterado ${Math.random()}`,
+        });
+        console.log(
+          `Tempo de execução: ${response.tempoExecucao.toFixed(2)} ms`,
+        );
+        return response;
+      },
+      quantidade, // Número de solicitações de alteração
+    );
+
+    // Exibir tempo total
     console.log(
-      `Tempo total para ${quantidade} solicitações: ${tempoExecucao} ms`,
+      `⏱ Tempo total para ${quantidade} solicitações de alteração: ${tempoExecucaoTotal.toFixed(
+        2,
+      )} ms`,
     );
 
     // Validações
-    expect(tempoExecucao).toBeLessThan(1000); // O tempo total deve ser menor que 1 segundo (1000 ms)
+    expect(sucessos).toBe(quantidade); // Todas as solicitações devem ser bem-sucedidas
+    expect(tempoExecucaoTotal).toBeLessThan(1000); // O tempo total deve ser menor que 1 segundo (1000 ms)
   });
 
-  test('A API deve ser capaz de processar 30 solicitações de exclusão de filmes por segundo', async () => {
+  test.only('A API deve ser capaz de processar 30 solicitações de exclusão de filmes por segundo', async () => {
     quantidade = 30; // Número de solicitações
     const { listId } = await executarTesteDeCarga(
       () => moviePage.criarFilme(null),
@@ -80,17 +101,33 @@ test.describe('/movies', () => {
 
     listaDeIds = listId;
 
-    const inicio = performance.now();
-    for (let i = 0; i < quantidade; i++) {
-      await moviePage.deletarFilme(listId[i]);
-    }
-    const fim = performance.now();
-    const tempoExecucao = fim - inicio;
+    console.log(`🚀 Iniciando teste de exclusão de ${quantidade} filmes...`);
+    const { tempoExecucaoTotal, sucessos } = await executarTesteDeCarga(
+      async () => {
+        if (listId.length === 0) return; // Garantir que há IDs para excluir
+
+        const filmeId = listId.pop(); // Pega e remove o último ID do array
+        const response = await moviePage.deletarFilme(filmeId);
+
+        console.log(
+          `Requisição de exclusão do filme com ID ${filmeId} concluída em ${response.tempoExecucao.toFixed(
+            2,
+          )} ms`,
+        );
+        return response;
+      },
+      quantidade, // Número de solicitações de alteração
+    );
+
+    // Exibir tempo total
     console.log(
-      `Tempo total para ${quantidade} solicitações: ${tempoExecucao} ms`,
+      `⏱ Tempo total para ${quantidade} solicitações de exclusão: ${tempoExecucaoTotal.toFixed(
+        2,
+      )} ms`,
     );
 
     // Validações
-    expect(tempoExecucao).toBeLessThan(1000); // O tempo total deve ser menor que 1 segundo (1000 ms)
+    expect(sucessos).toBe(quantidade); // Todas as solicitações devem ser bem-sucedidas
+    expect(tempoExecucaoTotal).toBeLessThan(1000); // O tempo total deve ser menor que 1 segundo (1000 ms)
   });
 });

@@ -1,0 +1,11 @@
+Resposta: {
+  status: 200,
+  responseBody: {
+    title: 'aetas torrens cohibeo',
+    description: 'Voco vereor aequitas trans reprehenderit traho viscus theologus campana audeo.',
+    launchdate: '2025-01-16T06:29:14.490Z',
+    showtimes: [ '2025-03-08T12:41:57.997Z', '2025-03-12T10:19:40.978Z' ],
+    _id: 'MpRMPAlOq6mGNHFU'
+  },
+  tempoExecucao: 41.09389999999985
+}

@@ -1,0 +1,502 @@
+🚀 Iniciando teste com 100 requisições em paralelo...
+⏳ Requisição 1 iniciada...
+⏳ Requisição iniciada em 2629.90 ms
+⏳ Requisição 2 iniciada...
+⏳ Requisição iniciada em 2652.58 ms
+⏳ Requisição 3 iniciada...
+⏳ Requisição iniciada em 2663.22 ms
+⏳ Requisição 4 iniciada...
+⏳ Requisição iniciada em 2681.30 ms
+⏳ Requisição 5 iniciada...
+⏳ Requisição iniciada em 2700.00 ms
+⏳ Requisição 6 iniciada...
+⏳ Requisição iniciada em 2728.29 ms
+⏳ Requisição 7 iniciada...
+⏳ Requisição iniciada em 2743.92 ms
+⏳ Requisição 8 iniciada...
+⏳ Requisição iniciada em 2751.11 ms
+⏳ Requisição 9 iniciada...
+⏳ Requisição iniciada em 2762.82 ms
+⏳ Requisição 10 iniciada...
+⏳ Requisição iniciada em 2800.66 ms
+⏳ Requisição 11 iniciada...
+⏳ Requisição iniciada em 2820.88 ms
+⏳ Requisição 12 iniciada...
+⏳ Requisição iniciada em 2835.94 ms
+⏳ Requisição 13 iniciada...
+⏳ Requisição iniciada em 2858.50 ms
+⏳ Requisição 14 iniciada...
+⏳ Requisição iniciada em 2869.25 ms
+⏳ Requisição 15 iniciada...
+⏳ Requisição iniciada em 2879.73 ms
+⏳ Requisição 16 iniciada...
+⏳ Requisição iniciada em 2891.62 ms
+⏳ Requisição 17 iniciada...
+⏳ Requisição iniciada em 2900.82 ms
+⏳ Requisição 18 iniciada...
+⏳ Requisição iniciada em 2912.05 ms
+⏳ Requisição 19 iniciada...
+⏳ Requisição iniciada em 2933.90 ms
+⏳ Requisição 20 iniciada...
+⏳ Requisição iniciada em 2947.16 ms
+⏳ Requisição 21 iniciada...
+⏳ Requisição iniciada em 2962.77 ms
+⏳ Requisição 22 iniciada...
+⏳ Requisição iniciada em 3063.99 ms
+⏳ Requisição 23 iniciada...
+⏳ Requisição iniciada em 3075.09 ms
+⏳ Requisição 24 iniciada...
+⏳ Requisição iniciada em 3083.14 ms
+⏳ Requisição 25 iniciada...
+⏳ Requisição iniciada em 3098.52 ms
+⏳ Requisição 26 iniciada...
+⏳ Requisição iniciada em 3114.91 ms
+⏳ Requisição 27 iniciada...
+⏳ Requisição iniciada em 3137.48 ms
+⏳ Requisição 28 iniciada...
+⏳ Requisição iniciada em 3149.40 ms
+⏳ Requisição 29 iniciada...
+⏳ Requisição iniciada em 3197.27 ms
+⏳ Requisição 30 iniciada...
+⏳ Requisição iniciada em 3209.86 ms
+⏳ Requisição 31 iniciada...
+⏳ Requisição iniciada em 3279.32 ms
+⏳ Requisição 32 iniciada...
+⏳ Requisição iniciada em 3286.01 ms
+⏳ Requisição 33 iniciada...
+⏳ Requisição iniciada em 3292.62 ms
+⏳ Requisição 34 iniciada...
+⏳ Requisição iniciada em 3303.62 ms
+⏳ Requisição 35 iniciada...
+⏳ Requisição iniciada em 3313.77 ms
+⏳ Requisição 36 iniciada...
+⏳ Requisição iniciada em 3324.62 ms
+⏳ Requisição 37 iniciada...
+⏳ Requisição iniciada em 3383.74 ms
+⏳ Requisição 38 iniciada...
+⏳ Requisição iniciada em 3393.55 ms
+⏳ Requisição 39 iniciada...
+⏳ Requisição iniciada em 3402.35 ms
+⏳ Requisição 40 iniciada...
+⏳ Requisição iniciada em 3418.49 ms
+⏳ Requisição 41 iniciada...
+⏳ Requisição iniciada em 3475.86 ms
+⏳ Requisição 42 iniciada...
+⏳ Requisição iniciada em 3484.37 ms
+⏳ Requisição 43 iniciada...
+⏳ Requisição iniciada em 3495.79 ms
+⏳ Requisição 44 iniciada...
+⏳ Requisição iniciada em 3515.93 ms
+⏳ Requisição 45 iniciada...
+⏳ Requisição iniciada em 3538.71 ms
+⏳ Requisição 46 iniciada...
+⏳ Requisição iniciada em 3550.02 ms
+⏳ Requisição 47 iniciada...
+⏳ Requisição iniciada em 3571.89 ms
+⏳ Requisição 48 iniciada...
+⏳ Requisição iniciada em 3587.67 ms
+⏳ Requisição 49 iniciada...
+⏳ Requisição iniciada em 3622.40 ms
+⏳ Requisição 50 iniciada...
+⏳ Requisição iniciada em 3633.39 ms
+⏳ Requisição 51 iniciada...
+⏳ Requisição iniciada em 3649.81 ms
+⏳ Requisição 52 iniciada...
+⏳ Requisição iniciada em 3656.49 ms
+⏳ Requisição 53 iniciada...
+⏳ Requisição iniciada em 3663.07 ms
+⏳ Requisição 54 iniciada...
+⏳ Requisição iniciada em 3668.59 ms
+⏳ Requisição 55 iniciada...
+⏳ Requisição iniciada em 3674.87 ms
+⏳ Requisição 56 iniciada...
+⏳ Requisição iniciada em 3683.45 ms
+⏳ Requisição 57 iniciada...
+⏳ Requisição iniciada em 3689.22 ms
+⏳ Requisição 58 iniciada...
+⏳ Requisição iniciada em 3696.73 ms
+⏳ Requisição 59 iniciada...
+⏳ Requisição iniciada em 3702.22 ms
+⏳ Requisição 60 iniciada...
+⏳ Requisição iniciada em 3708.71 ms
+⏳ Requisição 61 iniciada...
+⏳ Requisição iniciada em 3716.49 ms
+⏳ Requisição 62 iniciada...
+⏳ Requisição iniciada em 3721.40 ms
+⏳ Requisição 63 iniciada...
+⏳ Requisição iniciada em 3728.46 ms
+⏳ Requisição 64 iniciada...
+⏳ Requisição iniciada em 3744.59 ms
+⏳ Requisição 65 iniciada...
+⏳ Requisição iniciada em 3750.62 ms
+⏳ Requisição 66 iniciada...
+⏳ Requisição iniciada em 3755.00 ms
+⏳ Requisição 67 iniciada...
+⏳ Requisição iniciada em 3759.90 ms
+⏳ Requisição 68 iniciada...
+⏳ Requisição iniciada em 3771.59 ms
+⏳ Requisição 69 iniciada...
+⏳ Requisição iniciada em 3788.41 ms
+⏳ Requisição 70 iniciada...
+⏳ Requisição iniciada em 3796.37 ms
+⏳ Requisição 71 iniciada...
+⏳ Requisição iniciada em 3804.84 ms
+⏳ Requisição 72 iniciada...
+⏳ Requisição iniciada em 3828.61 ms
+⏳ Requisição 73 iniciada...
+⏳ Requisição iniciada em 3835.96 ms
+⏳ Requisição 74 iniciada...
+⏳ Requisição iniciada em 3845.02 ms
+⏳ Requisição 75 iniciada...
+⏳ Requisição iniciada em 3850.63 ms
+⏳ Requisição 76 iniciada...
+⏳ Requisição iniciada em 3856.97 ms
+⏳ Requisição 77 iniciada...
+⏳ Requisição iniciada em 3863.03 ms
+⏳ Requisição 78 iniciada...
+⏳ Requisição iniciada em 3869.05 ms
+⏳ Requisição 79 iniciada...
+⏳ Requisição iniciada em 3874.78 ms
+⏳ Requisição 80 iniciada...
+⏳ Requisição iniciada em 3908.27 ms
+⏳ Requisição 81 iniciada...
+⏳ Requisição iniciada em 3917.73 ms
+⏳ Requisição 82 iniciada...
+⏳ Requisição iniciada em 3932.42 ms
+⏳ Requisição 83 iniciada...
+⏳ Requisição iniciada em 3952.78 ms
+⏳ Requisição 84 iniciada...
+⏳ Requisição iniciada em 3960.81 ms
+⏳ Requisição 85 iniciada...
+⏳ Requisição iniciada em 3967.45 ms
+⏳ Requisição 86 iniciada...
+⏳ Requisição iniciada em 3976.54 ms
+⏳ Requisição 87 iniciada...
+⏳ Requisição iniciada em 3983.21 ms
+⏳ Requisição 88 iniciada...
+⏳ Requisição iniciada em 3995.51 ms
+⏳ Requisição 89 iniciada...
+⏳ Requisição iniciada em 4000.28 ms
+⏳ Requisição 90 iniciada...
+⏳ Requisição iniciada em 4010.02 ms
+⏳ Requisição 91 iniciada...
+⏳ Requisição iniciada em 4014.16 ms
+⏳ Requisição 92 iniciada...
+⏳ Requisição iniciada em 4020.51 ms
+⏳ Requisição 93 iniciada...
+⏳ Requisição iniciada em 4028.73 ms
+⏳ Requisição 94 iniciada...
+⏳ Requisição iniciada em 4033.63 ms
+⏳ Requisição 95 iniciada...
+⏳ Requisição iniciada em 4039.20 ms
+⏳ Requisição 96 iniciada...
+⏳ Requisição iniciada em 4046.82 ms
+⏳ Requisição 97 iniciada...
+⏳ Requisição iniciada em 4052.11 ms
+⏳ Requisição 98 iniciada...
+⏳ Requisição iniciada em 4057.99 ms
+⏳ Requisição 99 iniciada...
+⏳ Requisição iniciada em 4064.93 ms
+⏳ Requisição 100 iniciada...
+⏳ Requisição iniciada em 4069.47 ms
+✅ Requisição concluída em 4966.84 ms (Duração: 2336.93 ms)
+✅ Requisição 1 concluída em 2337.55 ms
+✅ Requisição concluída em 4967.22 ms (Duração: 2314.65 ms)
+✅ Requisição 2 concluída em 2316.12 ms
+✅ Requisição concluída em 4967.74 ms (Duração: 2304.52 ms)
+✅ Requisição 3 concluída em 2304.87 ms
+✅ Requisição concluída em 4968.07 ms (Duração: 2286.78 ms)
+✅ Requisição 4 concluída em 2287.20 ms
+✅ Requisição concluída em 4968.65 ms (Duração: 2268.65 ms)
+✅ Requisição 5 concluída em 2269.14 ms
+✅ Requisição concluída em 4969.13 ms (Duração: 2240.84 ms)
+✅ Requisição 6 concluída em 2246.56 ms
+✅ Requisição concluída em 4969.59 ms (Duração: 2225.67 ms)
+✅ Requisição 7 concluída em 2226.43 ms
+✅ Requisição concluída em 4970.17 ms (Duração: 2219.06 ms)
+✅ Requisição 8 concluída em 2219.33 ms
+✅ Requisição concluída em 4970.67 ms (Duração: 2207.85 ms)
+✅ Requisição 9 concluída em 2209.62 ms
+✅ Requisição concluída em 4976.14 ms (Duração: 2175.48 ms)
+✅ Requisição 10 concluída em 2179.01 ms
+✅ Requisição concluída em 5204.16 ms (Duração: 2383.28 ms)
+✅ Requisição 11 concluída em 2383.83 ms
+✅ Requisição concluída em 5204.53 ms (Duração: 2368.59 ms)
+✅ Requisição 12 concluída em 2369.01 ms
+✅ Requisição concluída em 5204.86 ms (Duração: 2346.35 ms)
+✅ Requisição 13 concluída em 2346.99 ms
+✅ Requisição concluída em 5205.32 ms (Duração: 2336.06 ms)
+✅ Requisição 14 concluída em 2337.80 ms
+✅ Requisição concluída em 5205.67 ms (Duração: 2325.94 ms)
+✅ Requisição 15 concluída em 2326.28 ms
+✅ Requisição concluída em 5206.04 ms (Duração: 2314.42 ms)
+✅ Requisição 16 concluída em 2315.42 ms
+✅ Requisição concluída em 5206.39 ms (Duração: 2305.57 ms)
+✅ Requisição 17 concluída em 2305.86 ms
+✅ Requisição concluída em 5206.76 ms (Duração: 2294.71 ms)
+✅ Requisição 18 concluída em 2295.01 ms
+✅ Requisição concluída em 5207.14 ms (Duração: 2273.23 ms)
+✅ Requisição 19 concluída em 2273.61 ms
+✅ Requisição concluída em 5207.48 ms (Duração: 2260.32 ms)
+✅ Requisição 20 concluída em 2260.63 ms
+✅ Requisição concluída em 5207.84 ms (Duração: 2245.07 ms)
+✅ Requisição 21 concluída em 2245.37 ms
+✅ Requisição concluída em 5208.20 ms (Duração: 2144.21 ms)
+✅ Requisição 22 concluída em 2144.65 ms
+✅ Requisição concluída em 5208.55 ms (Duração: 2133.46 ms)
+✅ Requisição 23 concluída em 2134.10 ms
+✅ Requisição concluída em 5208.93 ms (Duração: 2125.79 ms)
+✅ Requisição 24 concluída em 2126.09 ms
+✅ Requisição concluída em 5209.29 ms (Duração: 2110.77 ms)
+✅ Requisição 25 concluída em 2111.07 ms
+✅ Requisição concluída em 5302.60 ms (Duração: 2187.69 ms)
+✅ Requisição 26 concluída em 2189.23 ms
+✅ Requisição concluída em 5302.93 ms (Duração: 2165.45 ms)
+✅ Requisição 27 concluída em 2169.90 ms
+✅ Requisição concluída em 5303.21 ms (Duração: 2153.81 ms)
+✅ Requisição 28 concluída em 2154.11 ms
+✅ Requisição concluída em 5303.76 ms (Duração: 2106.49 ms)
+✅ Requisição 29 concluída em 2108.20 ms
+✅ Requisição concluída em 5304.36 ms (Duração: 2094.50 ms)
+✅ Requisição 30 concluída em 2100.40 ms
+✅ Requisição concluída em 5304.75 ms (Duração: 2025.42 ms)
+✅ Requisição 31 concluída em 2026.94 ms
+✅ Requisição concluída em 5305.29 ms (Duração: 2019.28 ms)
+✅ Requisição 32 concluída em 2020.44 ms
+✅ Requisição concluída em 5307.11 ms (Duração: 2014.49 ms)
+✅ Requisição 33 concluída em 2014.82 ms
+✅ Requisição concluída em 5307.47 ms (Duração: 2003.85 ms)
+✅ Requisição 34 concluída em 2004.09 ms
+✅ Requisição concluída em 5307.82 ms (Duração: 1994.04 ms)
+✅ Requisição 35 concluída em 1994.50 ms
+✅ Requisição concluída em 5309.29 ms (Duração: 1984.67 ms)
+✅ Requisição 36 concluída em 1985.88 ms
+✅ Requisição concluída em 5309.86 ms (Duração: 1926.12 ms)
+✅ Requisição 37 concluída em 1927.01 ms
+✅ Requisição concluída em 5310.33 ms (Duração: 1916.78 ms)
+✅ Requisição 38 concluída em 1917.09 ms
+✅ Requisição concluída em 5310.64 ms (Duração: 1908.29 ms)
+✅ Requisição 39 concluída em 1908.88 ms
+✅ Requisição concluída em 5311.05 ms (Duração: 1892.56 ms)
+✅ Requisição 40 concluída em 1892.82 ms
+✅ Requisição concluída em 5311.44 ms (Duração: 1835.58 ms)
+✅ Requisição 41 concluída em 1836.89 ms
+✅ Requisição concluída em 5311.84 ms (Duração: 1827.47 ms)
+✅ Requisição 42 concluída em 1827.83 ms
+✅ Requisição concluída em 5312.24 ms (Duração: 1816.45 ms)
+✅ Requisição 43 concluída em 1819.95 ms
+✅ Requisição concluída em 5312.57 ms (Duração: 1796.64 ms)
+✅ Requisição 44 concluída em 1797.29 ms
+✅ Requisição concluída em 5313.07 ms (Duração: 1774.36 ms)
+✅ Requisição 45 concluída em 1775.19 ms
+✅ Requisição concluída em 5313.78 ms (Duração: 1763.76 ms)
+✅ Requisição 46 concluída em 1764.16 ms
+✅ Requisição concluída em 5314.59 ms (Duração: 1742.70 ms)
+✅ Requisição 47 concluída em 1743.06 ms
+✅ Requisição concluída em 5316.60 ms (Duração: 1728.93 ms)
+✅ Requisição 48 concluída em 1729.39 ms
+✅ Requisição concluída em 5317.42 ms (Duração: 1695.02 ms)
+✅ Requisição 49 concluída em 1696.79 ms
+✅ Requisição concluída em 5319.44 ms (Duração: 1686.05 ms)
+✅ Requisição 50 concluída em 1687.20 ms
+✅ Requisição concluída em 5320.59 ms (Duração: 1670.77 ms)
+✅ Requisição 51 concluída em 1672.27 ms
+✅ Requisição concluída em 5321.04 ms (Duração: 1664.55 ms)
+✅ Requisição 52 concluída em 1664.81 ms
+✅ Requisição concluída em 5321.41 ms (Duração: 1658.34 ms)
+✅ Requisição 53 concluída em 1658.63 ms
+✅ Requisição concluída em 5321.79 ms (Duração: 1653.19 ms)
+✅ Requisição 54 concluída em 1653.49 ms
+✅ Requisição concluída em 5322.68 ms (Duração: 1647.81 ms)
+✅ Requisição 55 concluída em 1649.80 ms
+✅ Requisição concluída em 5325.15 ms (Duração: 1641.70 ms)
+✅ Requisição 56 concluída em 1642.04 ms
+✅ Requisição concluída em 5326.24 ms (Duração: 1637.02 ms)
+✅ Requisição 57 concluída em 1637.35 ms
+✅ Requisição concluída em 5328.54 ms (Duração: 1631.81 ms)
+✅ Requisição 58 concluída em 1632.34 ms
+✅ Requisição concluída em 5330.66 ms (Duração: 1628.44 ms)
+✅ Requisição 59 concluída em 1628.83 ms
+✅ Requisição concluída em 5331.49 ms (Duração: 1622.78 ms)
+✅ Requisição 60 concluída em 1623.40 ms
+✅ Requisição concluída em 5332.45 ms (Duração: 1615.96 ms)
+✅ Requisição 61 concluída em 1616.30 ms
+✅ Requisição concluída em 5332.88 ms (Duração: 1611.49 ms)
+✅ Requisição 62 concluída em 1611.75 ms
+✅ Requisição concluída em 5333.29 ms (Duração: 1604.83 ms)
+✅ Requisição 63 concluída em 1605.27 ms
+✅ Requisição concluída em 5333.67 ms (Duração: 1589.08 ms)
+✅ Requisição 64 concluída em 1589.58 ms
+✅ Requisição concluída em 5334.17 ms (Duração: 1583.55 ms)
+✅ Requisição 65 concluída em 1583.89 ms
+✅ Requisição concluída em 5334.68 ms (Duração: 1579.68 ms)
+✅ Requisição 66 concluída em 1579.93 ms
+✅ Requisição concluída em 5335.75 ms (Duração: 1575.85 ms)
+✅ Requisição 67 concluída em 1577.33 ms
+✅ Requisição concluída em 5337.87 ms (Duração: 1566.28 ms)
+✅ Requisição 68 concluída em 1566.62 ms
+✅ Requisição concluída em 5338.19 ms (Duração: 1549.78 ms)
+✅ Requisição 69 concluída em 1550.50 ms
+✅ Requisição concluída em 5338.88 ms (Duração: 1542.51 ms)
+✅ Requisição 70 concluída em 1542.81 ms
+✅ Requisição concluída em 5339.70 ms (Duração: 1534.86 ms)
+✅ Requisição 71 concluída em 1535.90 ms
+✅ Requisição concluída em 5341.11 ms (Duração: 1512.50 ms)
+✅ Requisição 72 concluída em 1514.43 ms
+✅ Requisição concluída em 5342.23 ms (Duração: 1506.27 ms)
+✅ Requisição 73 concluída em 1506.97 ms
+✅ Requisição concluída em 5345.37 ms (Duração: 1500.35 ms)
+✅ Requisição 74 concluída em 1500.93 ms
+✅ Requisição concluída em 5346.05 ms (Duração: 1495.42 ms)
+✅ Requisição 75 concluída em 1495.83 ms
+✅ Requisição concluída em 5348.17 ms (Duração: 1491.20 ms)
+✅ Requisição 76 concluída em 1491.58 ms
+✅ Requisição concluída em 5349.16 ms (Duração: 1486.13 ms)
+✅ Requisição 77 concluída em 1486.48 ms
+✅ Requisição concluída em 5350.04 ms (Duração: 1480.99 ms)
+✅ Requisição 78 concluída em 1481.27 ms
+✅ Requisição concluída em 5350.34 ms (Duração: 1475.55 ms)
+✅ Requisição 79 concluída em 1475.84 ms
+✅ Requisição concluída em 5350.87 ms (Duração: 1442.60 ms)
+✅ Requisição 80 concluída em 1443.96 ms
+✅ Requisição concluída em 5351.32 ms (Duração: 1433.59 ms)
+✅ Requisição 81 concluída em 1436.80 ms
+✅ Requisição concluída em 5351.75 ms (Duração: 1419.34 ms)
+✅ Requisição 82 concluída em 1420.70 ms
+✅ Requisição concluída em 5352.90 ms (Duração: 1400.12 ms)
+✅ Requisição 83 concluída em 1400.69 ms
+✅ Requisição concluída em 5353.74 ms (Duração: 1392.93 ms)
+✅ Requisição 84 concluída em 1393.39 ms
+✅ Requisição concluída em 5354.33 ms (Duração: 1386.87 ms)
+✅ Requisição 85 concluída em 1387.25 ms
+✅ Requisição concluída em 5354.81 ms (Duração: 1378.27 ms)
+✅ Requisição 86 concluída em 1378.67 ms
+✅ Requisição concluída em 5355.13 ms (Duração: 1371.92 ms)
+✅ Requisição 87 concluída em 1372.22 ms
+✅ Requisição concluída em 5355.99 ms (Duração: 1360.48 ms)
+✅ Requisição 88 concluída em 1361.02 ms
+✅ Requisição concluída em 5358.09 ms (Duração: 1357.81 ms)
+✅ Requisição 89 concluída em 1358.20 ms
+✅ Requisição concluída em 5360.75 ms (Duração: 1350.73 ms)
+✅ Requisição 90 concluída em 1353.85 ms
+✅ Requisição concluída em 5362.86 ms (Duração: 1348.70 ms)
+✅ Requisição 91 concluída em 1350.50 ms
+✅ Requisição concluída em 5365.30 ms (Duração: 1344.78 ms)
+✅ Requisição 92 concluída em 1345.07 ms
+✅ Requisição concluída em 5365.58 ms (Duração: 1336.85 ms)
+✅ Requisição 93 concluída em 1337.24 ms
+✅ Requisição concluída em 5366.02 ms (Duração: 1332.39 ms)
+✅ Requisição 94 concluída em 1332.72 ms
+✅ Requisição concluída em 5366.93 ms (Duração: 1327.73 ms)
+✅ Requisição 95 concluída em 1328.46 ms
+✅ Requisição concluída em 5367.86 ms (Duração: 1321.04 ms)
+✅ Requisição 96 concluída em 1321.28 ms
+✅ Requisição concluída em 5372.96 ms (Duração: 1320.85 ms)
+✅ Requisição 97 concluída em 1321.15 ms
+✅ Requisição concluída em 5373.39 ms (Duração: 1315.40 ms)
+✅ Requisição 98 concluída em 1316.02 ms
+✅ Requisição concluída em 5374.05 ms (Duração: 1309.12 ms)
+✅ Requisição 99 concluída em 1309.45 ms
+✅ Requisição concluída em 5377.77 ms (Duração: 1308.30 ms)
+✅ Requisição 100 concluída em 1309.08 ms
+⏱ Tempo total para 100 solicitações: 2749.26 ms
+📌 Requisição 1: 2337.55 ms
+📌 Requisição 2: 2316.12 ms
+📌 Requisição 3: 2304.87 ms
+📌 Requisição 4: 2287.20 ms
+📌 Requisição 5: 2269.14 ms
+📌 Requisição 6: 2246.56 ms
+📌 Requisição 7: 2226.43 ms
+📌 Requisição 8: 2219.33 ms
+📌 Requisição 9: 2209.62 ms
+📌 Requisição 10: 2179.01 ms
+📌 Requisição 11: 2383.83 ms
+📌 Requisição 12: 2369.01 ms
+📌 Requisição 13: 2346.99 ms
+📌 Requisição 14: 2337.80 ms
+📌 Requisição 15: 2326.28 ms
+📌 Requisição 16: 2315.42 ms
+📌 Requisição 17: 2305.86 ms
+📌 Requisição 18: 2295.01 ms
+📌 Requisição 19: 2273.61 ms
+📌 Requisição 20: 2260.63 ms
+📌 Requisição 21: 2245.37 ms
+📌 Requisição 22: 2144.65 ms
+📌 Requisição 23: 2134.10 ms
+📌 Requisição 24: 2126.09 ms
+📌 Requisição 25: 2111.07 ms
+📌 Requisição 26: 2189.23 ms
+📌 Requisição 27: 2169.90 ms
+📌 Requisição 28: 2154.11 ms
+📌 Requisição 29: 2108.20 ms
+📌 Requisição 30: 2100.40 ms
+📌 Requisição 31: 2026.94 ms
+📌 Requisição 32: 2020.44 ms
+📌 Requisição 33: 2014.82 ms
+📌 Requisição 34: 2004.09 ms
+📌 Requisição 35: 1994.50 ms
+📌 Requisição 36: 1985.88 ms
+📌 Requisição 37: 1927.01 ms
+📌 Requisição 38: 1917.09 ms
+📌 Requisição 39: 1908.88 ms
+📌 Requisição 40: 1892.82 ms
+📌 Requisição 41: 1836.89 ms
+📌 Requisição 42: 1827.83 ms
+📌 Requisição 43: 1819.95 ms
+📌 Requisição 44: 1797.29 ms
+📌 Requisição 45: 1775.19 ms
+📌 Requisição 46: 1764.16 ms
+📌 Requisição 47: 1743.06 ms
+📌 Requisição 48: 1729.39 ms
+📌 Requisição 49: 1696.79 ms
+📌 Requisição 50: 1687.20 ms
+📌 Requisição 51: 1672.27 ms
+📌 Requisição 52: 1664.81 ms
+📌 Requisição 53: 1658.63 ms
+📌 Requisição 54: 1653.49 ms
+📌 Requisição 55: 1649.80 ms
+📌 Requisição 56: 1642.04 ms
+📌 Requisição 57: 1637.35 ms
+📌 Requisição 58: 1632.34 ms
+📌 Requisição 59: 1628.83 ms
+📌 Requisição 60: 1623.40 ms
+📌 Requisição 61: 1616.30 ms
+📌 Requisição 62: 1611.75 ms
+📌 Requisição 63: 1605.27 ms
+📌 Requisição 64: 1589.58 ms
+📌 Requisição 65: 1583.89 ms
+📌 Requisição 66: 1579.93 ms
+📌 Requisição 67: 1577.33 ms
+📌 Requisição 68: 1566.62 ms
+📌 Requisição 69: 1550.50 ms
+📌 Requisição 70: 1542.81 ms
+📌 Requisição 71: 1535.90 ms
+📌 Requisição 72: 1514.43 ms
+📌 Requisição 73: 1506.97 ms
+📌 Requisição 74: 1500.93 ms
+📌 Requisição 75: 1495.83 ms
+📌 Requisição 76: 1491.58 ms
+📌 Requisição 77: 1486.48 ms
+📌 Requisição 78: 1481.27 ms
+📌 Requisição 79: 1475.84 ms
+📌 Requisição 80: 1443.96 ms
+📌 Requisição 81: 1436.80 ms
+📌 Requisição 82: 1420.70 ms
+📌 Requisição 83: 1400.69 ms
+📌 Requisição 84: 1393.39 ms
+📌 Requisição 85: 1387.25 ms
+📌 Requisição 86: 1378.67 ms
+📌 Requisição 87: 1372.22 ms
+📌 Requisição 88: 1361.02 ms
+📌 Requisição 89: 1358.20 ms
+📌 Requisição 90: 1353.85 ms
+📌 Requisição 91: 1350.50 ms
+📌 Requisição 92: 1345.07 ms
+📌 Requisição 93: 1337.24 ms
+📌 Requisição 94: 1332.72 ms
+📌 Requisição 95: 1328.46 ms
+📌 Requisição 96: 1321.28 ms
+📌 Requisição 97: 1321.15 ms
+📌 Requisição 98: 1316.02 ms
+📌 Requisição 99: 1309.45 ms
+📌 Requisição 100: 1309.08 ms

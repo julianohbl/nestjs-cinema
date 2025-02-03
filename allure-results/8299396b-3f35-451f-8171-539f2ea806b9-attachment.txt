@@ -1,0 +1,32 @@
+🚀 Iniciando teste de exclusão de 30 filmes...
+Requisição de exclusão do filme com ID XEFW96BKeyp2GY2h concluída em 205.77 ms
+Requisição de exclusão do filme com ID XEFW96BKeyp2GY2h concluída em 197.05 ms
+Requisição de exclusão do filme com ID XEFW96BKeyp2GY2h concluída em 178.20 ms
+Requisição de exclusão do filme com ID XEFW96BKeyp2GY2h concluída em 171.63 ms
+Requisição de exclusão do filme com ID XEFW96BKeyp2GY2h concluída em 164.83 ms
+Requisição de exclusão do filme com ID XEFW96BKeyp2GY2h concluída em 161.77 ms
+Requisição de exclusão do filme com ID XEFW96BKeyp2GY2h concluída em 159.89 ms
+Requisição de exclusão do filme com ID XEFW96BKeyp2GY2h concluída em 157.79 ms
+Requisição de exclusão do filme com ID XEFW96BKeyp2GY2h concluída em 153.29 ms
+Requisição de exclusão do filme com ID XEFW96BKeyp2GY2h concluída em 149.62 ms
+Requisição de exclusão do filme com ID XEFW96BKeyp2GY2h concluída em 147.66 ms
+Requisição de exclusão do filme com ID XEFW96BKeyp2GY2h concluída em 145.69 ms
+Requisição de exclusão do filme com ID XEFW96BKeyp2GY2h concluída em 143.76 ms
+Requisição de exclusão do filme com ID XEFW96BKeyp2GY2h concluída em 141.84 ms
+Requisição de exclusão do filme com ID XEFW96BKeyp2GY2h concluída em 136.51 ms
+Requisição de exclusão do filme com ID XEFW96BKeyp2GY2h concluída em 130.45 ms
+Requisição de exclusão do filme com ID XEFW96BKeyp2GY2h concluída em 128.25 ms
+Requisição de exclusão do filme com ID XEFW96BKeyp2GY2h concluída em 126.39 ms
+Requisição de exclusão do filme com ID XEFW96BKeyp2GY2h concluída em 122.28 ms
+Requisição de exclusão do filme com ID XEFW96BKeyp2GY2h concluída em 120.11 ms
+Requisição de exclusão do filme com ID XEFW96BKeyp2GY2h concluída em 118.19 ms
+Requisição de exclusão do filme com ID XEFW96BKeyp2GY2h concluída em 116.28 ms
+Requisição de exclusão do filme com ID XEFW96BKeyp2GY2h concluída em 114.39 ms
+Requisição de exclusão do filme com ID XEFW96BKeyp2GY2h concluída em 112.49 ms
+Requisição de exclusão do filme com ID XEFW96BKeyp2GY2h concluída em 110.61 ms
+Requisição de exclusão do filme com ID XEFW96BKeyp2GY2h concluída em 106.03 ms
+Requisição de exclusão do filme com ID XEFW96BKeyp2GY2h concluída em 104.07 ms
+Requisição de exclusão do filme com ID XEFW96BKeyp2GY2h concluída em 102.15 ms
+Requisição de exclusão do filme com ID XEFW96BKeyp2GY2h concluída em 100.23 ms
+Requisição de exclusão do filme com ID XEFW96BKeyp2GY2h concluída em 101.84 ms
+⏱ Tempo total para 30 solicitações de alteração: 216.52 ms

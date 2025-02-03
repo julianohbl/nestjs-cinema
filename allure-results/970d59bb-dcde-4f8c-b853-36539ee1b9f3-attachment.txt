@@ -1,0 +1,23 @@
+Resposta: {
+  status: 400,
+  response: APIResponse: 400 Bad Request
+    X-Powered-By: Express
+    Content-Type: application/json; charset=utf-8
+    Content-Length: 86
+    ETag: W/"56-oCtT4cDXQC44Z8x3LV+XnxS79/4"
+    Date: Sun, 02 Feb 2025 21:09:16 GMT
+    Connection: keep-alive
+    Keep-Alive: timeout=5,
+  dadosDoFilme: {
+    title: '',
+    description: 'Tepesco confugo odio iure utor eligendi deputo subiungo demergo ambitus.',
+    launchdate: 2024-10-04T00:26:11.063Z,
+    showtimes: [ 2025-10-19T00:50:10.740Z, 2025-07-13T02:30:12.101Z ]
+  },
+  responseBody: {
+    message: [ 'Título do filme é mandatório' ],
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  tempoExecucao: 63.91310000000021
+}

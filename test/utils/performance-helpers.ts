@@ -14,40 +14,30 @@ export async function executarTesteDeCarga(
 
   let sucessos = 0; // Contador de execuções bem-sucedidas
   const listId = []; // Lista de IDs criados
+  const temposExecucao = []; // Array para armazenar tempos de execução individuais
 
   // Ajusta a quantidade de execuções para não exceder o limite máximo de 10000
   // Executa as solicitações em paralelo
-  const promises = [];
-  for (let i = 0; i < quantidade; i++) {
-    promises.push(
-      metodo()
-        .then((response) => {
-          if (
-            response.status === 200 ||
-            response.status === 201 ||
-            response.status === 204
-          ) {
-            // Adapte conforme o status esperado
-            sucessos++;
-          }
+  const promises = Array.from({ length: quantidade }, async (_, i) => {
+    try {
+      const response = await metodo();
 
-          if (response.responseBody._id) {
-            listId.push(response.responseBody._id);
-          }
-        })
-        .catch((error) => {
-          console.error(`Erro na execução ${i + 1}:`, error);
-        }),
-    );
-  }
+      if ([200, 201, 204].includes(response.status)) {
+        sucessos++;
+      }
 
+      if (response.responseBody?._id) {
+        listId.push(response.responseBody._id);
+      }
+    } catch (error) {
+      console.error(`❌ Erro na execução ${i + 1}:`, error);
+    }
+  });
   // Aguarda todas as execuções serem concluídas
   await Promise.all(promises);
 
   const fim = performance.now();
-  const tempoExecucao = fim - inicio;
-  // console.log(`Tempo de criação do filme: ${tempoExecucao} ms`);
-  // console.log(`Lista de IDs criados: ${listId}`);
+  const tempoExecucaoTotal = fim - inicio;
 
-  return { tempoExecucao, sucessos, listId };
+  return { tempoExecucaoTotal, temposExecucao, sucessos, listId };
 }

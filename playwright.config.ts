@@ -7,4 +7,8 @@ export default defineConfig({
     baseURL: 'http://localhost:3000', // URL base da API
     trace: 'on', // Habilita rastreamento para debugging
   },
+  reporter: [
+    ['dot'], // Exibe o resultado no console
+    ['allure-playwright'], // Gera o relatório Allure
+  ],
 });
