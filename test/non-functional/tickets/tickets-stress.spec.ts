@@ -42,11 +42,11 @@ test.describe('/tickets', () => {
         async () => {
           const response = await ticketsPage.criarTicket(movieId, showtimes[0]);
 
-          console.log(
-            `Requisição de criação do filme com ID ${
-              response.responseBody._id
-            } concluída em ${response.tempoExecucao.toFixed(2)} ms`,
-          );
+          // console.log(
+          //   `Requisição de criação do filme com ID ${
+          //     response.responseBody._id
+          //   } concluída em ${response.tempoExecucao.toFixed(2)} ms`,
+          // );
           return response;
         },
         quantidade,

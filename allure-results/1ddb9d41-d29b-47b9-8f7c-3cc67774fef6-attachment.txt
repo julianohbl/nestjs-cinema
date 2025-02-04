@@ -1,0 +1,15 @@
+Erro ao buscar filmes na página 1: TypeError: Cannot read properties of undefined (reading 'length')
+    at MoviePageObject.listarFilmesComPaginacao (C:\Users\Juliano Henrique\Projects\nestjs-cinema\test\pageObjects\moviePageObject.ts:85:56)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at C:\Users\Juliano Henrique\Projects\nestjs-cinema\test\non-functional\movies\movies-pagination.spec.ts:35:28
+    at C:\Users\Juliano Henrique\Projects\nestjs-cinema\node_modules\playwright\lib\worker\workerMain.js:341:9
+    at C:\Users\Juliano Henrique\Projects\nestjs-cinema\node_modules\playwright\lib\worker\testInfo.js:294:11
+    at TimeoutManager.withRunnable (C:\Users\Juliano Henrique\Projects\nestjs-cinema\node_modules\playwright\lib\worker\timeoutManager.js:64:14)
+    at TestInfoImpl._runAsStage (C:\Users\Juliano Henrique\Projects\nestjs-cinema\node_modules\playwright\lib\worker\testInfo.js:292:7)
+    at C:\Users\Juliano Henrique\Projects\nestjs-cinema\node_modules\playwright\lib\worker\workerMain.js:333:7
+    at C:\Users\Juliano Henrique\Projects\nestjs-cinema\node_modules\playwright\lib\worker\testInfo.js:294:11
+    at TimeoutManager.withRunnable (C:\Users\Juliano Henrique\Projects\nestjs-cinema\node_modules\playwright\lib\worker\timeoutManager.js:52:27)
+    at TestInfoImpl._runAsStage (C:\Users\Juliano Henrique\Projects\nestjs-cinema\node_modules\playwright\lib\worker\testInfo.js:292:7)
+    at WorkerMain._runTest (C:\Users\Juliano Henrique\Projects\nestjs-cinema\node_modules\playwright\lib\worker\workerMain.js:283:5)
+    at WorkerMain.runTestGroup (C:\Users\Juliano Henrique\Projects\nestjs-cinema\node_modules\playwright\lib\worker\workerMain.js:207:11)
+    at process.<anonymous> (C:\Users\Juliano Henrique\Projects\nestjs-cinema\node_modules\playwright\lib\common\process.js:95:22)

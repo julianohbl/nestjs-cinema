@@ -30,40 +30,35 @@
 //     await apiContext.dispose();
 //   });
 
-//   test('A lista de filmes deve ser paginada, com no máximo 20 filmes por página', async () => {
+//   test.only('A lista de filmes deve ser paginada corretamente', async () => {
 //     const filmesPorPagina = 20;
-//     const pagina = 1; // Exemplo de página inicial (pode ser dinâmico conforme necessário)
 
-//     // Chama a API para pegar os filmes com a página e o limite definidos
-//     const response = await fetch(
-//       `http://localhost:3000/movies?page=${pagina}&limit=${filmesPorPagina}`,
+//     // ✅ Obtendo o total real de filmes no banco
+//     const totalFilmesResponse = await fetch(
+//       'http://localhost:3000/movies/count',
 //     );
-//     const data = await response.json();
+//     const { totalFilmes } = await totalFilmesResponse.json();
 
-//     const totalFilmes = data.totalFilmes; // Total de filmes que a API retornou
-//     const totalPages = data.totalPages; // Número total de páginas, retornado pela API
+//     console.log(`Total de filmes cadastrados no sistema: ${totalFilmes}`);
 
-//     console.log(`Total de filmes: ${totalFilmes}`);
+//     // ✅ Calculando total de páginas dinamicamente
+//     const totalPages = Math.ceil(totalFilmes / filmesPorPagina);
 //     console.log(`Total de páginas esperadas: ${totalPages}`);
 
-//     expect(totalFilmes).toBeGreaterThan(0); // Garante que há filmes cadastrados
-//     expect(totalPages).toBeGreaterThan(0); // Garante que há pelo menos uma página
-
-//     // Itera pelas páginas
+//     // ✅ Iterando pelas páginas usando a função `listarFilmesComPaginacao`
 //     for (let page = 1; page <= totalPages; page++) {
-//       const response = await fetch(
-//         `http://localhost:3000/movies?page=${page}&limit=${filmesPorPagina}`,
+//       const filmesData = await moviePage.listarFilmesComPaginacao(
+//         page,
+//         filmesPorPagina,
 //       );
-//       const filmesData = await response.json();
-//       const filmesNaPagina = filmesData.filmes.length;
 
-//       console.log(`Página ${page}: ${filmesNaPagina} filmes`);
+//       console.log(`Página ${page}: ${filmesData.length} filmes retornados`);
 
-//       // Verifica se o número de filmes na página corresponde ao esperado
+//       // ✅ Validando a quantidade de filmes por página
 //       if (page < totalPages) {
-//         expect(filmesNaPagina).toBe(filmesPorPagina); // Todas as páginas, exceto a última, devem ter 20 filmes
+//         expect(filmesData.length).toBe(filmesPorPagina);
 //       } else {
-//         expect(filmesNaPagina).toBeLessThanOrEqual(filmesPorPagina); // A última página pode ter menos de 20 filmes
+//         expect(filmesData.length).toBeLessThanOrEqual(filmesPorPagina);
 //       }
 //     }
 //   });

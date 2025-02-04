@@ -1,0 +1,8 @@
+Tempo de execução:  27.640000000000327
+Filmes cadastrados:  {
+  title: 'placeat vulticulus vulariter',
+  description: 'Admoveo denique voveo stabilis impedit abscido absorbeo aetas degero.',
+  launchdate: '2024-10-21T08:22:41.690Z',
+  showtimes: [ '2025-02-22T18:13:37.358Z', '2025-12-25T18:42:25.693Z' ],
+  _id: 'qu1r1nCKUQDjhXkE'
+}

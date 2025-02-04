@@ -1,5 +1,10 @@
 # 📽️ API de Cinema PBs
 
+## 👤 Apresentação
+Olá! Meu nome é Juliano, estudante de Ciência de Dados pela UNIVESP e atualmente faço parte do programa de bolsas Compass UOL focado em AWS & AI for Software Quality Engineering.
+
+Este projeto faz parte do meu aprendizado em testes de software e automação. O objetivo desta API é permitir a gestão de um sistema de cinema, enquanto aplico boas práticas de desenvolvimento, testes automatizados e controle de qualidade.
+
 ## 📌 Visão Geral
 Esta API fornece a lógica de back-end necessária para a criação e gerenciamento de um sistema de cinemas, incluindo cadastro de filmes e reservas de ingressos.
 
@@ -24,16 +29,13 @@ cd nestjs-cinema
 npm install
 ```
 
-### 3️⃣ Configurando o Ambiente
-Crie um arquivo `.env` na raiz do projeto e configure as variáveis necessárias, como a string de conexão com o banco de dados.
-
-### 4️⃣ Iniciando a Aplicação
+### 3️⃣ Iniciando a Aplicação
 ```bash
 npm run start
 ```
 A API estará disponível em `http://localhost:3000`
 
-### 5️⃣ Visualizando a Documentação (Swagger)
+### 4️⃣ Visualizando a Documentação (Swagger)
 Após iniciar a aplicação, acesse `http://localhost:3000/api/docs` para visualizar e testar os endpoints disponíveis.
 
 ---

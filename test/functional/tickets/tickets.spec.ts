@@ -33,12 +33,6 @@ test.describe('/tickets', () => {
     await apiContext.dispose(); // Descarte o contexto de requisição
   });
 
-  /* ===================================
-  CORREÇÕES A FAZER
-  -> Deletar um ticket para testar os tickets
-  -> Fazer análise de valor limite para seatNumber e price
-  -> Fazer teste parametrizado para seatNumber e price
-  ===================================*/
   test.describe('POST /tickets', () => {
     test('Deve criar um novo ticket com sucesso com dados válidos', async () => {
       const ticketCriado = await ticketsPage.criarTicket(movieId, showtimes[0]);

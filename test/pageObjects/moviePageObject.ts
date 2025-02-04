@@ -68,22 +68,24 @@ export class MoviePageObject {
     return { status, responseBody, tempoExecucao }; // Retorna o corpo da resposta como JSON
   }
 
-  // listarFilmesComPaginacao = async (pagina) => {
-  //   const url = `http://localhost:3000/movies?page=${pagina}`;
+  // listarFilmesComPaginacao = async (pagina: number, limite: number = 20) => {
+  //   const url = `http://localhost:3000/movies?page=${pagina}&limit=${limite}`;
 
   //   try {
-  //     const resposta = await fetch(url); // Faz a requisição GET com o fetch
+  //     const resposta = await fetch(url);
+
   //     if (!resposta.ok) {
-  //       throw new Error('Erro na requisição: ' + resposta.statusText);
+  //       throw new Error(`Erro na requisição: ${resposta.statusText}`);
   //     }
 
-  //     const dados = await resposta.json(); // Converte a resposta para JSON
-  //     console.log(dados); // Aqui você pode usar os dados recebidos conforme sua necessidade
+  //     const dados = await resposta.json();
 
-  //     // Aqui você pode retornar ou fazer o que quiser com os dados
+  //     console.log(`Página ${pagina} carregada com ${dados.length} filmes.`);
+
   //     return dados;
   //   } catch (erro) {
-  //     console.error('Erro ao buscar filmes:', erro);
+  //     console.error(`Erro ao buscar filmes na página ${pagina}:`, erro);
+  //     return []; // Retorna um array vazio caso ocorra um erro
   //   }
   // };
 
