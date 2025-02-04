@@ -54,7 +54,10 @@ test.describe('/movies', () => {
     });
 
     test('A API deve ser capaz de responder a solicitações GET de detalhes de um filme em menos de 50 milissegundos', async () => {
-      const response = await moviePage.obterFilme('rYC0RAs9yIofwdgh');
+      const filmeCriado = await moviePage.criarFilme(null);
+      movieId = filmeCriado.responseBody._id;
+
+      const response = await moviePage.obterFilme(movieId);
 
       expect(response.tempoExecucao).toBeLessThan(50);
     });

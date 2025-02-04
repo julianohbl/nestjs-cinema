@@ -21,7 +21,6 @@ test.describe('/tickets', () => {
     const { responseBody } = await moviesPage.criarFilme(null);
     movieId = responseBody._id;
     showtimes = responseBody.showtimes;
-    console.log('Showtimes: ', showtimes);
   });
 
   test.afterAll(async () => {
@@ -36,7 +35,7 @@ test.describe('/tickets', () => {
   test.describe('/tickets', () => {
     test('O tempo médio de resposta para a reserva de um ingresso não deve exceder 300 milissegundos', async () => {
       const ticketCriado = await ticketsPage.criarTicket(movieId, showtimes[0]);
-
+      console.log('Tempo de execução: ', ticketCriado.tempoExecucao);
       expect(ticketCriado.tempoExecucao).toBeLessThan(300);
     });
   });

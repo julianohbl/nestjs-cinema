@@ -1,0 +1,2 @@
+Showtimes:  [ '2025-11-04T04:11:55.485Z', '2025-12-25T19:27:18.545Z' ]
+⏱ Tempo total para 50 solicitações: 684.34 ms

@@ -1,0 +1,13 @@
+Showtimes:  [ '2025-11-24T22:37:17.146Z', '2026-01-29T15:47:09.410Z' ]
+Ticket criado:  {
+  responseBody: {
+    userId: '557fe35b-7350-4536-94a0-84f8da43e206',
+    seatNumber: 30,
+    price: 60,
+    movieId: 'zRKL06nyjxHJwxBI',
+    showtime: '2025-11-24T22:37:17.146Z',
+    _id: 'rSPFf0592aMrTPkZ'
+  },
+  status: 201,
+  tempoExecucao: 30.244199999999864
+}

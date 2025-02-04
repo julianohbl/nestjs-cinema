@@ -1,0 +1,23 @@
+Resposta: {
+  status: 400,
+  response: APIResponse: 400 Bad Request
+    X-Powered-By: Express
+    Content-Type: application/json; charset=utf-8
+    Content-Length: 84
+    ETag: W/"54-lC+ZpwJNtGIKBVtc4truuR4KHnU"
+    Date: Mon, 03 Feb 2025 22:19:20 GMT
+    Connection: keep-alive
+    Keep-Alive: timeout=5,
+  dadosDoFilme: {
+    title: 'maxime nemo basium',
+    description: 'Laboriosam maxime ultio thorax ipsam videlicet patrocinor cunae tristis in.',
+    launchdate: 2024-02-22T00:13:50.160Z,
+    showtimes: ''
+  },
+  responseBody: {
+    message: [ 'showtimes should not be empty' ],
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  tempoExecucao: 23.832000000000335
+}

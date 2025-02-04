@@ -1,0 +1,12 @@
+Ticket criado:  {
+  responseBody: {
+    userId: '0f422291-b03b-4cf0-a542-f2d54cb98c80',
+    seatNumber: 28,
+    price: 0,
+    movieId: '86PxBrB97D8lkhXe',
+    showtime: '2025-12-29T22:34:49.472Z',
+    _id: 'KNiDzw5jHwad1koF'
+  },
+  status: 201,
+  tempoExecucao: 43.33760000000029
+}

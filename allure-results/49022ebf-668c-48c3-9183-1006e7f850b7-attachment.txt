@@ -1,0 +1,13 @@
+Showtimes:  [ '2025-08-20T20:08:54.473Z', '2026-01-27T08:31:49.103Z' ]
+Ticket criado:  {
+  responseBody: {
+    userId: 'c0ecf185-8be1-4b38-b419-93fc7eba528e',
+    seatNumber: 89,
+    price: 60,
+    movieId: 'T0R2VIioue2bsDDI',
+    showtime: '2025-08-20T20:08:54.473Z',
+    _id: '51ycXRNirci0pjTt'
+  },
+  status: 201,
+  tempoExecucao: 32.30360000000019
+}

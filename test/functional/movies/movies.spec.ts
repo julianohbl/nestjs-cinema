@@ -100,11 +100,28 @@ test.describe('/movies', () => {
         title: 'Alteração no título', // Novo título
       });
 
+      console.log('Resposta:', response);
+
       expect(response.status).toBe(200);
       expect(response.responseBody).toHaveProperty(
         'title',
         'Alteração no título',
       );
+    });
+
+    test('Deve retornar erro ao atualizar um filme com o ID inválido', async () => {
+      const filmeCriado = await moviePage.criarFilme(null);
+      if (filmeCriado.responseBody._id) {
+        movieId = filmeCriado.responseBody._id;
+      }
+
+      const response = await moviePage.alterarFilme('ID-invalido', {
+        title: 'titulo-alterado', // Novo título
+      });
+
+      console.log('Resposta: ', response);
+
+      expect(response.status).toBe(404);
     });
 
     test('Deve retornar erro ao atualizar um filme com o título vazio', async () => {
@@ -221,9 +238,7 @@ test.describe('/movies', () => {
     });
 
     test('Deve retornar erro ao deletar um filme inexistente', async () => {
-      const response = await moviePage.deletarFilme('filme inexistente');
-
-      console.log('Resposta:', response);
+      const response = await moviePage.deletarFilme('filme-inexistente');
 
       expect(response.status).toBe(404);
     });

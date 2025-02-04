@@ -1,0 +1,13 @@
+Showtimes:  [ '2025-07-12T18:12:06.211Z', '2025-11-27T07:31:02.888Z' ]
+Ticket criado:  {
+  responseBody: {
+    userId: '4a6c2160-275c-4ae3-bf7c-f6f2b01877de',
+    seatNumber: 54,
+    price: 0,
+    movieId: 'chNeiOK50ByKOBfQ',
+    showtime: '2025-07-12T18:12:06.211Z',
+    _id: 'DfHvoZTckyFUGEvN'
+  },
+  status: 201,
+  tempoExecucao: 31.7183
+}

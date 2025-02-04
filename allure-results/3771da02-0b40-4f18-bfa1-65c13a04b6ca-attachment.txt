@@ -1,0 +1,13 @@
+Showtimes:  [ '2025-10-14T08:59:29.805Z', '2025-09-07T15:35:25.870Z' ]
+Ticket:  {
+  responseBody: {
+    userId: 'ea0b07bf-43c9-4779-b22c-a7592c560898',
+    seatNumber: 98,
+    price: 16.05,
+    movieId: 'A815v6NKhv58fPOI',
+    showtime: '2025-10-14T08:59:29.805Z',
+    _id: '4PYoY3ZUrs143bWz'
+  },
+  status: 201,
+  tempoExecucao: 40.98669999999993
+}

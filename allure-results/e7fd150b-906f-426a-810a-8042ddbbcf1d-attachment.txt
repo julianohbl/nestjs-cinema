@@ -1,0 +1,11 @@
+Resposta: {
+  status: 200,
+  responseBody: {
+    title: 'Alteração no título',
+    description: 'Valens dolorum benigne valetudo comptus.',
+    launchdate: '2024-07-26T07:05:07.317Z',
+    showtimes: [ '2025-06-01T13:16:54.253Z', '2025-10-15T14:00:30.799Z' ],
+    _id: 'FhbOIo8ELF9wuxCl'
+  },
+  tempoExecucao: 100.29650000000038
+}

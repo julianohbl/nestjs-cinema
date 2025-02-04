@@ -1,0 +1,2 @@
+Showtimes:  [ '2026-02-03T23:01:39.322Z', '2025-05-13T14:26:45.759Z' ]
+⏱ Tempo total para 50 solicitações: 710.96 ms

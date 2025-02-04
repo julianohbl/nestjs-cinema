@@ -1,0 +1,10 @@
+Showtimes:  [ '2025-09-20T15:37:48.680Z', '2026-01-03T10:13:13.629Z' ]
+Ticket Criado {
+  responseBody: {
+    message: [ 'Valor do assento deve ser menor ou igual a 100' ],
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  status: 400,
+  tempoExecucao: 42.06660000000011
+}

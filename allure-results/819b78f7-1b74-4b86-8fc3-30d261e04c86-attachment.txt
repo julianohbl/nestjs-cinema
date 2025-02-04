@@ -1,0 +1,10 @@
+Filme deletado {
+  status: 200,
+  response: APIResponse: 200 OK
+    X-Powered-By: Express
+    Date: Tue, 04 Feb 2025 02:46:36 GMT
+    Connection: keep-alive
+    Keep-Alive: timeout=5
+    Content-Length: 0,
+  tempoExecucao: 23.627800000000207
+}

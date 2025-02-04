@@ -1,29 +1,80 @@
-# API de Cinema PBs
+# 📽️ API de Cinema PBs
 
-Esta API possui a lógica do back-end de lógica específica para a criação de um sistema de cinemas.
+## 👤 Apresentação
+Olá! Meu nome é Juliano, estudante de Ciência de Dados pela UNIVESP e atualmente faço parte do programa de bolsas Compass UOL focado em AWS & AI for Software Quality Engineering.
 
-## Executando localmente
+Este projeto faz parte do meu aprendizado em testes de software e automação. O objetivo desta API é permitir a gestão de um sistema de cinema, enquanto aplico boas práticas de desenvolvimento, testes automatizados e controle de qualidade.
 
-Após baixar o projeto na sua máquina, rodar:
+## 📌 Visão Geral
+Esta API fornece a lógica de back-end necessária para a criação e gerenciamento de um sistema de cinemas, incluindo cadastro de filmes e reservas de ingressos.
 
+O foco da aplicação é garantir a qualidade e robustez das funcionalidades relacionadas aos filmes e às reservas de ingressos. Para isso, serão realizados testes automatizados abrangentes em todas as rotas do recurso `movies`, como criação, listagem, atualização e exclusão de filmes. Além disso, a rota `POST` de `tickets`, responsável pela reserva de ingressos, será testada minuciosamente para validar diferentes cenários, como sucesso na reserva, falhas por lotação esgotada e problemas de autenticação do usuário.
+
+## 🚀 Tecnologias Utilizadas
+- **Node.js** para o back-end
+- **Swagger** para documentação interativa da API
+- **XMind** para criação do mapa mental
+- **Playwright** para testes automatizados
+- **Jira** para gestão de tarefas e bugs
+
+## 🛠️ Configuração e Execução
+### 1️⃣ Clonando o Repositório
+```bash
+git clone https://github.com/julianohbl/nestjs-cinema.git
+cd nestjs-cinema
 ```
+
+### 2️⃣ Instalando Dependências
+```bash
 npm install
 ```
 
-Para rodar a aplicação, executar o comando:
-
-```
+### 3️⃣ Iniciando a Aplicação
+```bash
 npm run start
 ```
+A API estará disponível em `http://localhost:3000`
 
-## Validando a execução
+### 4️⃣ Visualizando a Documentação (Swagger)
+Após iniciar a aplicação, acesse `http://localhost:3000/api/docs` para visualizar e testar os endpoints disponíveis.
 
-Após subir a aplicação, ela estará disponível no endereço http://localhost:3000
+---
 
-## Visualizando o Swagger
+## 🧪 Executando Testes Automatizados
+### 1️⃣ Instalando o Playwright
+Caso ainda não tenha instalado as dependências para o Playwright, execute:
+```bash
+npx playwright install
+```
 
-Para visualizar o Swagger da aplicação, você poderá visitar o endereço http://localhost:3000/api/docs
+### 2️⃣ Rodando os Testes Automatizados
+Para rodar os testes de API automatizados com Playwright:
+```bash
+npx playwright test
+```
 
-## User Stories
+### 3️⃣ Gerando Relatórios de Testes
+Após a execução dos testes, você pode visualizar os relatórios gerados com o seguinte comando:
+```bash
+npx playwright show-report
+```
+Isso abrirá um relatório interativo no navegador para análise detalhada.
 
-As User Stories para criação da análise de testes, planejamento e testes funcionais e não funcionais estão disponíveis dentro da pasta UserStories neste mesmo repositório.
+---
+
+## 📜 User Stories
+As **User Stories** utilizadas para planejamento, análise e execução de testes estão disponíveis na pasta `UserStories` dentro deste repositório.
+
+---
+
+## 📩 Contribuição
+Contribuições são bem-vindas! Para contribuir:
+1. Crie uma branch com sua feature: `git checkout -b minha-feature`
+2. Faça commit das suas alterações: `git commit -m 'Adicionando nova feature'`
+3. Envie para o repositório: `git push origin minha-feature`
+4. Abra um Pull Request para revisão
+
+---
+
+## 📄 Licença
+Este projeto está sob a licença MIT. Para mais detalhes, consulte o arquivo `LICENSE`.
