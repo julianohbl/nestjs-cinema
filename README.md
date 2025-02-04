@@ -3,6 +3,8 @@
 ## 📌 Visão Geral
 Esta API fornece a lógica de back-end necessária para a criação e gerenciamento de um sistema de cinemas, incluindo cadastro de filmes e reservas de ingressos.
 
+O foco da aplicação é garantir a qualidade e robustez das funcionalidades relacionadas aos filmes e às reservas de ingressos. Para isso, serão realizados testes automatizados abrangentes em todas as rotas do recurso `movies`, como criação, listagem, atualização e exclusão de filmes. Além disso, a rota `POST` de `tickets`, responsável pela reserva de ingressos, será testada minuciosamente para validar diferentes cenários, como sucesso na reserva, falhas por lotação esgotada e problemas de autenticação do usuário.
+
 ## 🚀 Tecnologias Utilizadas
 - **Node.js** para o back-end
 - **Swagger** para documentação interativa da API
