@@ -1,0 +1,13 @@
+Showtimes:  [ '2025-12-19T14:04:26.593Z', '2025-10-20T20:27:53.153Z' ]
+Ticket Criado {
+  responseBody: {
+    userId: '0ea7f87d-9be4-4bae-acf4-16f1bf6c302b',
+    seatNumber: 99,
+    price: 21.37,
+    movieId: 'jVBXLgr7VE1szYEZ',
+    showtime: '2025-12-19T14:04:26.593Z',
+    _id: 'vK9XVPmQJmaY615a'
+  },
+  status: 201,
+  tempoExecucao: 54.49260000000004
+}

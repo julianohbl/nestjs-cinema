@@ -1,0 +1,2 @@
+Showtimes:  [ '2025-08-25T13:26:24.533Z', '2025-11-01T16:14:02.151Z' ]
+Tempo total para 50 solicitações: undefined ms

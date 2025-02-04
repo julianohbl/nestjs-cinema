@@ -34,9 +34,11 @@ test.describe('/movies', () => {
       async () => {
         const response = await moviePage.criarFilme(null);
 
-        console.log(
-          `Tempo de execução: ${response.tempoExecucao.toFixed(2)} ms`,
-        );
+        // console.log(
+        //   `Requisição de criação do filme com ID ${
+        //     response.responseBody._id
+        //   } concluída em ${response.tempoExecucao.toFixed(2)} ms`,
+        // );
         return response;
       },
       quantidade,
@@ -72,9 +74,11 @@ test.describe('/movies', () => {
         const response = await moviePage.alterarFilme(filmeId, {
           title: `Título alterado ${Math.random()}`,
         });
-        console.log(
-          `Tempo de execução: ${response.tempoExecucao.toFixed(2)} ms`,
-        );
+        // console.log(
+        //   `Requisição de atualização do filme com ID ${filmeId} concluída em ${response.tempoExecucao.toFixed(
+        //     2,
+        //   )} ms`,
+        // );
         return response;
       },
       quantidade, // Número de solicitações de alteração
@@ -92,7 +96,7 @@ test.describe('/movies', () => {
     expect(tempoExecucaoTotal).toBeLessThan(1000); // O tempo total deve ser menor que 1 segundo (1000 ms)
   });
 
-  test.only('A API deve ser capaz de processar 30 solicitações de exclusão de filmes por segundo', async () => {
+  test('A API deve ser capaz de processar 30 solicitações de exclusão de filmes por segundo', async () => {
     quantidade = 30; // Número de solicitações
     const { listId } = await executarTesteDeCarga(
       () => moviePage.criarFilme(null),
@@ -109,11 +113,11 @@ test.describe('/movies', () => {
         const filmeId = listId.pop(); // Pega e remove o último ID do array
         const response = await moviePage.deletarFilme(filmeId);
 
-        console.log(
-          `Requisição de exclusão do filme com ID ${filmeId} concluída em ${response.tempoExecucao.toFixed(
-            2,
-          )} ms`,
-        );
+        // console.log(
+        //   `Requisição de exclusão do filme com ID ${filmeId} concluída em ${response.tempoExecucao.toFixed(
+        //     2,
+        //   )} ms`,
+        // );
         return response;
       },
       quantidade, // Número de solicitações de alteração

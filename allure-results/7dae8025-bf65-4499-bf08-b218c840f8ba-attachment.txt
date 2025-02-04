@@ -1,0 +1,10 @@
+Showtimes:  [ '2025-04-16T09:02:12.308Z', '2025-08-16T11:05:32.896Z' ]
+Ticket criado:  {
+  responseBody: {
+    message: [ 'Preço deve ser maior ou igual a 0' ],
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  status: 400,
+  tempoExecucao: 33.111799999999675
+}

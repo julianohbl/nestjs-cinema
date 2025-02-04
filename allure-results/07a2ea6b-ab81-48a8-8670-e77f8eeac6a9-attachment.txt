@@ -1,0 +1,11 @@
+Showtimes:  [ '2025-07-16T18:40:35.512Z', '2025-05-10T22:57:32.801Z' ]
+Data inválida:  Invalid Date
+Ticket:  {
+  responseBody: {
+    message: [ 'Data de apresentação é mandatória' ],
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  status: 400,
+  tempoExecucao: 37.11990000000014
+}

@@ -39,12 +39,6 @@ export class MoviePageObject {
       data: dadosAtualizados,
     });
 
-    if (!response.ok()) {
-      throw new Error(
-        `Erro ao alterar filme: ${response.status()} - ${response.statusText()}`,
-      );
-    }
-
     try {
       const status = response.status();
       const responseBody = await response.json();

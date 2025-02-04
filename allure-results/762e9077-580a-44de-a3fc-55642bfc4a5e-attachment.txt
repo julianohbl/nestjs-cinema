@@ -1,0 +1,11 @@
+Resposta: {
+  status: 200,
+  responseBody: {
+    title: 'Alteração no título',
+    description: 'Sit speciosus maxime hic correptius.',
+    launchdate: '2024-05-04T05:10:39.353Z',
+    showtimes: [ '2025-05-21T18:28:34.093Z', '2025-08-04T08:23:26.023Z' ],
+    _id: 'cpyTo5QveiKmSb8b'
+  },
+  tempoExecucao: 30.353299999999763
+}

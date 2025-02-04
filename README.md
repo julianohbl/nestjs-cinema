@@ -1,29 +1,76 @@
-# API de Cinema PBs
+# 📽️ API de Cinema PBs
 
-Esta API possui a lógica do back-end de lógica específica para a criação de um sistema de cinemas.
+## 📌 Visão Geral
+Esta API fornece a lógica de back-end necessária para a criação e gerenciamento de um sistema de cinemas, incluindo cadastro de filmes e reservas de ingressos.
 
-## Executando localmente
+## 🚀 Tecnologias Utilizadas
+- **Node.js** para o back-end
+- **Swagger** para documentação interativa da API
+- **XMind** para criação do mapa mental
+- **Playwright** para testes automatizados
+- **Jira** para gestão de tarefas e bugs
 
-Após baixar o projeto na sua máquina, rodar:
-
+## 🛠️ Configuração e Execução
+### 1️⃣ Clonando o Repositório
+```bash
+git clone https://github.com/julianohbl/nestjs-cinema.git
+cd nestjs-cinema
 ```
+
+### 2️⃣ Instalando Dependências
+```bash
 npm install
 ```
 
-Para rodar a aplicação, executar o comando:
+### 3️⃣ Configurando o Ambiente
+Crie um arquivo `.env` na raiz do projeto e configure as variáveis necessárias, como a string de conexão com o banco de dados.
 
-```
+### 4️⃣ Iniciando a Aplicação
+```bash
 npm run start
 ```
+A API estará disponível em `http://localhost:3000`
 
-## Validando a execução
+### 5️⃣ Visualizando a Documentação (Swagger)
+Após iniciar a aplicação, acesse `http://localhost:3000/api/docs` para visualizar e testar os endpoints disponíveis.
 
-Após subir a aplicação, ela estará disponível no endereço http://localhost:3000
+---
 
-## Visualizando o Swagger
+## 🧪 Executando Testes Automatizados
+### 1️⃣ Instalando o Playwright
+Caso ainda não tenha instalado as dependências para o Playwright, execute:
+```bash
+npx playwright install
+```
 
-Para visualizar o Swagger da aplicação, você poderá visitar o endereço http://localhost:3000/api/docs
+### 2️⃣ Rodando os Testes Automatizados
+Para rodar os testes de API automatizados com Playwright:
+```bash
+npx playwright test
+```
 
-## User Stories
+### 3️⃣ Gerando Relatórios de Testes
+Após a execução dos testes, você pode visualizar os relatórios gerados com o seguinte comando:
+```bash
+npx playwright show-report
+```
+Isso abrirá um relatório interativo no navegador para análise detalhada.
 
-As User Stories para criação da análise de testes, planejamento e testes funcionais e não funcionais estão disponíveis dentro da pasta UserStories neste mesmo repositório.
+---
+
+## 📜 User Stories
+As **User Stories** utilizadas para planejamento, análise e execução de testes estão disponíveis na pasta `UserStories` dentro deste repositório.
+
+---
+
+## 📩 Contribuição
+Contribuições são bem-vindas! Para contribuir:
+1. Crie uma branch com sua feature: `git checkout -b minha-feature`
+2. Faça commit das suas alterações: `git commit -m 'Adicionando nova feature'`
+3. Envie para o repositório: `git push origin minha-feature`
+4. Abra um Pull Request para revisão
+
+---
+
+## 📄 Licença
+Este projeto está sob a licença MIT. Para mais detalhes, consulte o arquivo `LICENSE`.

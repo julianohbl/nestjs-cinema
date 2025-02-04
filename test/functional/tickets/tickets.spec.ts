@@ -42,7 +42,6 @@ test.describe('/tickets', () => {
   test.describe('POST /tickets', () => {
     test('Deve criar um novo ticket com sucesso com dados válidos', async () => {
       const ticketCriado = await ticketsPage.criarTicket(movieId, showtimes[0]);
-      console.log('Ticket: ', ticketCriado);
 
       expect(ticketCriado.status).toBe(201);
       expect(ticketCriado.responseBody).toHaveProperty(
@@ -79,7 +78,6 @@ test.describe('/tickets', () => {
         movieId,
         dataNaoCadastrada,
       );
-
       expect(ticketCriado.status).toBe(400);
     });
 
@@ -186,6 +184,7 @@ test.describe('/tickets', () => {
           price: 0,
         },
       );
+      console.log('Ticket criado: ', ticketCriado);
 
       expect(ticketCriado.status).toBe(201);
       expect(ticketCriado.responseBody).toHaveProperty(
@@ -214,6 +213,7 @@ test.describe('/tickets', () => {
           price: 60,
         },
       );
+      console.log('Ticket criado: ', ticketCriado);
 
       expect(ticketCriado.status).toBe(201);
       expect(ticketCriado.responseBody).toHaveProperty(

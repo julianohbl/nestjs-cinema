@@ -1,0 +1,10 @@
+Showtimes:  [ '2025-07-04T02:18:21.504Z', '2025-10-31T19:39:59.262Z' ]
+ticketCriado:  {
+  responseBody: {
+    message: [ 'Valor do assento deve ser maior ou igual a 0' ],
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  status: 400,
+  tempoExecucao: 38.758400000000165
+}

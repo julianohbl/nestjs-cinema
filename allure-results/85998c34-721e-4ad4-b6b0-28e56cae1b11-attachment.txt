@@ -1,0 +1,12 @@
+Resposta: {
+  status: 404,
+  response: APIResponse: 404 Not Found
+    X-Powered-By: Express
+    Content-Type: application/json; charset=utf-8
+    Content-Length: 66
+    ETag: W/"42-vdTx4GW38DQAaRgwt78xmk+vVAE"
+    Date: Mon, 03 Feb 2025 21:17:53 GMT
+    Connection: keep-alive
+    Keep-Alive: timeout=5,
+  tempoExecucao: 88.45119999999997
+}

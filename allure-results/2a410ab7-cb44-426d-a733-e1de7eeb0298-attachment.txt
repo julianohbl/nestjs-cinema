@@ -1,0 +1,13 @@
+Showtimes:  [ '2025-03-02T13:52:05.203Z', '2025-10-11T19:03:42.930Z' ]
+Ticket Criado {
+  responseBody: {
+    userId: '8dd535c3-5852-42d1-8e95-140b87bd6994',
+    seatNumber: 0,
+    price: 38.22,
+    movieId: 'HuQczjrNQHeiAosk',
+    showtime: '2025-03-02T13:52:05.203Z',
+    _id: '8HmFJuOLJAcVclot'
+  },
+  status: 201,
+  tempoExecucao: 34.32540000000017
+}

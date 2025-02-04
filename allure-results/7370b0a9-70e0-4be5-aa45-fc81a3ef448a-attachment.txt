@@ -1,0 +1,11 @@
+Resposta: {
+  status: 200,
+  responseBody: {
+    title: 'ceno cerno cupiditate',
+    description: 'Antiquus corroboro culpo perferendis condico.',
+    launchdate: '',
+    showtimes: [ '2025-10-25T11:08:41.108Z', '2025-03-15T03:21:47.751Z' ],
+    _id: 'bUvfs0qWoJdlr77P'
+  },
+  tempoExecucao: 28.016200000000026
+}

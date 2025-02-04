@@ -1,0 +1,13 @@
+Showtimes:  [ '2025-04-26T07:18:45.103Z', '2025-04-05T04:40:12.819Z' ]
+Ticket:  {
+  responseBody: {
+    userId: 'ba2af242-84e2-4ee8-9a53-0c6a889f1054',
+    seatNumber: 68,
+    price: 23.51,
+    movieId: 'LTf3hjoFzj2hQiEv',
+    showtime: '2025-04-26T07:18:45.103Z',
+    _id: '7XJkyTjiQ0MdgX4L'
+  },
+  status: 201,
+  tempoExecucao: 34.45039999999972
+}

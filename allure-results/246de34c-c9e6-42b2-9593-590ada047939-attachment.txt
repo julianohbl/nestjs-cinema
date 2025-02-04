@@ -1,0 +1,14 @@
+Showtimes:  [ '2025-10-17T23:22:15.036Z', '2026-01-30T23:09:41.499Z' ]
+Data inválida:  2025-02-04T01:08:18.220Z
+Ticket:  {
+  responseBody: {
+    userId: 'adbb989c-9dbd-4aa2-97e1-a02c24cfb404',
+    seatNumber: 64,
+    price: 23.84,
+    movieId: 'ETziIMcODdSnqVLF',
+    showtime: '2025-02-04T01:08:18.220Z',
+    _id: 'oIDcEkLfqXTE5k2A'
+  },
+  status: 201,
+  tempoExecucao: 55.709499999999935
+}

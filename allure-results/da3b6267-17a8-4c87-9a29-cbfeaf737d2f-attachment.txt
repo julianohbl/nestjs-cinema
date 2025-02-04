@@ -1,0 +1,25 @@
+Showtimes:  [ '2025-07-27T22:47:40.676Z', '2025-09-23T22:42:30.569Z' ]
+Ticket Criado {
+  responseBody: {
+    userId: '0146630b-34d1-450c-a1e0-3837d962d437',
+    seatNumber: 1,
+    price: 2.78,
+    movieId: 'MbtTQUThzQlB2Qgi',
+    showtime: '2025-07-27T22:47:40.676Z',
+    _id: 'MY0qE0LDgIiHKoiU'
+  },
+  status: 201,
+  tempoExecucao: 32.76329999999962
+}
+Ticket Duplicado {
+  responseBody: {
+    userId: 'ba426d8d-dc27-46e5-ac06-b52beade12cd',
+    seatNumber: 1,
+    price: 35,
+    movieId: 'MbtTQUThzQlB2Qgi',
+    showtime: '2025-07-27T22:47:40.676Z',
+    _id: 'DZ37KPlwdT7cFbTc'
+  },
+  status: 201,
+  tempoExecucao: 33.92809999999963
+}

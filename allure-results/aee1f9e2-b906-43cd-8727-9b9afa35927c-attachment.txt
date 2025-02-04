@@ -1,0 +1,11 @@
+Resposta: {
+  status: 200,
+  responseBody: {
+    title: 'Alteração no título',
+    description: 'Color aperio eius.',
+    launchdate: '2024-09-07T11:38:16.388Z',
+    showtimes: [ '2025-09-29T08:40:00.004Z', '2026-01-09T12:52:50.719Z' ],
+    _id: 'Zj6BIhPN8sreiAO9'
+  },
+  tempoExecucao: 80.58550000000014
+}
